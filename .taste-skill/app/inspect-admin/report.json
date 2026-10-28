@@ -1,0 +1,1320 @@
+{
+ "url": "http://localhost:3005/vi/admin",
+ "at": "2026-10-27T22:45:33.208Z",
+ "allow": [
+  "font-not-dealt"
+ ],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 2,
+   "filled": [
+    0.58,
+    0.62
+   ],
+   "motion": {
+    "elements": 1,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 1,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 997,
+     "screens": 1.1,
+     "words": 450,
+     "img": 0,
+     "video": 0,
+     "canvas": 0,
+     "svg": 9,
+     "sections": 0,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Ngân hàng câu hỏi",
+     "words": 4,
+     "chars": 17,
+     "lines": 1,
+     "size": 28,
+     "vw": 1.9,
+     "font": "Be Vietnam Pro",
+     "weight": 500,
+     "tracking": -0.01,
+     "leading": 1.29,
+     "top": 36,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "h1": {
+     "text": "Ngân hàng câu hỏi",
+     "words": 4,
+     "lines": 1,
+     "size": 28,
+     "font": "Be Vietnam Pro"
+    },
+    "headings": [
+     {
+      "text": "Ngân hàng câu hỏi",
+      "words": 4,
+      "chars": 17,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Be Vietnam Pro",
+      "weight": 500,
+      "tracking": -0.01,
+      "leading": 1.29,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.3,
+      "top": 36,
+      "tag": "h1",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 1,
+     "maxLines": 1,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": null,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Be Vietnam Pro",
+       "share": 0.96,
+       "mono": false
+      },
+      {
+       "family": "ui-monospace",
+       "share": 0.04,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      11,
+      12,
+      13,
+      14,
+      16,
+      28
+     ],
+     "sizeCount": 6,
+     "notLoaded": [],
+     "body": {
+      "font": "Be Vietnam Pro",
+      "size": 14,
+      "leading": 1.43,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 6.8
+     },
+     "measureChars": 63,
+     "max": {
+      "size": 28,
+      "vw": 1.9,
+      "font": "Be Vietnam Pro",
+      "text": "Ngân hàng câu hỏi"
+     },
+     "monoShare": 0.04,
+     "monoProseShare": 0.04,
+     "monoFamilies": [
+      "ui-monospace"
+     ],
+     "monoSamples": [
+      "Q-1042",
+      "Q-1041",
+      "Q-1040",
+      "Q-1039",
+      "Q-1038",
+      "Q-1037"
+     ],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.02,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#f5f7f2",
+       "top": 0,
+       "hsl": {
+        "h": 84,
+        "s": 0.24,
+        "l": 0.96
+       }
+      },
+      {
+       "color": "#ffffff",
+       "top": 210,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#10241a",
+       "share": 0.52
+      },
+      {
+       "color": "#4b5a50",
+       "share": 0.39
+      },
+      {
+       "color": "#0f3a22",
+       "share": 0.05
+      },
+      {
+       "color": "#133621",
+       "share": 0.01
+      },
+      {
+       "color": "#7a4a05",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#f4d96c",
+      "hsl": {
+       "h": 48,
+       "s": 0.86,
+       "l": 0.69
+      },
+      "fg": "#10241a"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 4,
+     "inHero": 4,
+     "radius": 6,
+     "height": 36,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Bỏ qua tới nội dung",
+      "Ngân hàng câu hỏi",
+      "Chờ duyệt 2",
+      "Tạo câu hỏi"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 1,
+     "hairlineSamples": [
+      "aside.side 240px"
+     ],
+     "outlinedBoxes": 1,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 1,
+     "boxRadius": 12,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 0,
+     "fixed": false,
+     "height": 0,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "be vietnam pro",
+     "be vietnam pro fallback",
+     "noto sans jp",
+     "noto sans jp fallback",
+     "noto sans sc",
+     "noto sans sc fallback"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 997,
+    "margins": {
+     "left": 24,
+     "right": 57
+    },
+    "sections": [],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Ngân hàng câu hỏi",
+      "size": 28,
+      "top": 36,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 280,
+      "n": 2
+     }
+    ],
+    "leftBlocks": 2,
+    "bodySize": 14,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0.08,
+    "voidBox": {
+     "x": 0,
+     "y": 360,
+     "w": 240,
+     "h": 420
+    }
+   },
+   "app": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "dark": false,
+    "ground": "#ffffff",
+    "sidebar": {
+     "w": 240,
+     "tag": "aside",
+     "links": 8,
+     "share": 0.17
+    },
+    "topbar": null,
+    "canvas": {
+     "left": 40,
+     "right": 41
+    },
+    "hero": {
+     "text": "Ngân hàng câu hỏi",
+     "words": 4,
+     "chars": 17,
+     "lines": 1,
+     "size": 28,
+     "vw": 1.9,
+     "font": "Be Vietnam Pro",
+     "weight": 500,
+     "tracking": -0.01,
+     "leading": 1.29,
+     "top": 36,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "charts": 0,
+    "layout": {
+     "panels": 1,
+     "firstScreen": 1,
+     "ragged": [],
+     "voids": []
+    },
+    "tiles": 0,
+    "panels": {
+     "count": 1,
+     "radii": [
+      [
+       12,
+       1
+      ]
+     ],
+     "heavyBorders": 0,
+     "borderSamples": [],
+     "heavyShadows": 0,
+     "softShadows": 0,
+     "shadowSamples": [],
+     "glass": 0
+    },
+    "chips": {
+     "count": 0,
+     "hues": 0,
+     "samples": []
+    },
+    "numbers": {
+     "cells": 7,
+     "leftAligned": 0,
+     "figures": 0,
+     "tabularShare": null,
+     "kpiMax": null
+    },
+    "rows": {
+     "count": 12,
+     "median": 56
+    },
+    "chartHues": 0,
+    "placeholders": [],
+    "type": {
+     "under13": 0.05,
+     "tiny": 0,
+     "tinySamples": [],
+     "sizes": [
+      11,
+      12,
+      13,
+      14,
+      16,
+      28
+     ]
+    },
+    "title": {
+     "text": "Ngân hàng câu hỏi",
+     "size": 28,
+     "top": 36
+    },
+    "colourShare": 0.001
+   },
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 2,
+   "filled": [
+    0.58,
+    0.61
+   ],
+   "motion": {
+    "elements": 1,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 1,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 1065,
+     "screens": 1,
+     "words": 427,
+     "img": 0,
+     "video": 0,
+     "canvas": 0,
+     "svg": 9,
+     "sections": 0,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Ngân hàng câu hỏi",
+     "words": 4,
+     "chars": 17,
+     "lines": 1,
+     "size": 28,
+     "vw": 3.6,
+     "font": "Be Vietnam Pro",
+     "weight": 500,
+     "tracking": -0.01,
+     "leading": 1.29,
+     "top": 76,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "h1": {
+     "text": "Ngân hàng câu hỏi",
+     "words": 4,
+     "lines": 1,
+     "size": 28,
+     "font": "Be Vietnam Pro"
+    },
+    "headings": [
+     {
+      "text": "Ngân hàng câu hỏi",
+      "words": 4,
+      "chars": 17,
+      "lines": 1,
+      "size": 28,
+      "vw": 3.6,
+      "font": "Be Vietnam Pro",
+      "weight": 500,
+      "tracking": -0.01,
+      "leading": 1.29,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.57,
+      "top": 76,
+      "tag": "h1",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 1,
+     "maxLines": 1,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": null,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Be Vietnam Pro",
+       "share": 0.95,
+       "mono": false
+      },
+      {
+       "family": "ui-monospace",
+       "share": 0.05,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      28
+     ],
+     "sizeCount": 6,
+     "notLoaded": [],
+     "body": {
+      "font": "Be Vietnam Pro",
+      "size": 14,
+      "leading": 1.43,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 6.8
+     },
+     "measureChars": 62,
+     "max": {
+      "size": 28,
+      "vw": 3.6,
+      "font": "Be Vietnam Pro",
+      "text": "Ngân hàng câu hỏi"
+     },
+     "monoShare": 0.05,
+     "monoProseShare": 0.05,
+     "monoFamilies": [
+      "ui-monospace"
+     ],
+     "monoSamples": [
+      "Q-1042",
+      "Q-1041",
+      "Q-1040",
+      "Q-1039",
+      "Q-1038",
+      "Q-1037"
+     ],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.01,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#f5f7f2",
+       "top": 0,
+       "hsl": {
+        "h": 84,
+        "s": 0.24,
+        "l": 0.96
+       }
+      },
+      {
+       "color": "#ffffff",
+       "top": 286,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#10241a",
+       "share": 0.54
+      },
+      {
+       "color": "#4b5a50",
+       "share": 0.36
+      },
+      {
+       "color": "#0f3a22",
+       "share": 0.05
+      },
+      {
+       "color": "#133621",
+       "share": 0.01
+      },
+      {
+       "color": "#7a4a05",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#f4d96c",
+      "hsl": {
+       "h": 48,
+       "s": 0.86,
+       "l": 0.69
+      },
+      "fg": "#133621"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 3,
+     "inHero": 3,
+     "radius": 6,
+     "height": 36,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Bỏ qua tới nội dung",
+      "Chờ duyệt 2",
+      "Tạo câu hỏi"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 1,
+     "hairlineSamples": [
+      "header.topbar 768px"
+     ],
+     "outlinedBoxes": 1,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 1,
+     "boxRadius": 12,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 0,
+     "fixed": true,
+     "height": 52,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "be vietnam pro",
+     "be vietnam pro fallback",
+     "noto sans jp",
+     "noto sans jp fallback",
+     "noto sans sc",
+     "noto sans sc fallback"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 1065,
+    "margins": {
+     "left": 20,
+     "right": 2
+    },
+    "sections": [],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Ngân hàng câu hỏi",
+      "size": 28,
+      "top": 76,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 20,
+      "n": 2
+     }
+    ],
+    "leftBlocks": 2,
+    "bodySize": 14,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "dark": false,
+    "ground": "#ffffff",
+    "sidebar": null,
+    "topbar": {
+     "h": 52
+    },
+    "canvas": {
+     "left": 20,
+     "right": -236
+    },
+    "hero": {
+     "text": "Ngân hàng câu hỏi",
+     "words": 4,
+     "chars": 17,
+     "lines": 1,
+     "size": 28,
+     "vw": 3.6,
+     "font": "Be Vietnam Pro",
+     "weight": 500,
+     "tracking": -0.01,
+     "leading": 1.29,
+     "top": 76,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "charts": 0,
+    "layout": {
+     "panels": 1,
+     "firstScreen": 1,
+     "ragged": [],
+     "voids": []
+    },
+    "tiles": 0,
+    "panels": {
+     "count": 1,
+     "radii": [
+      [
+       12,
+       1
+      ]
+     ],
+     "heavyBorders": 0,
+     "borderSamples": [],
+     "heavyShadows": 0,
+     "softShadows": 0,
+     "shadowSamples": [],
+     "glass": 0
+    },
+    "chips": {
+     "count": 0,
+     "hues": 0,
+     "samples": []
+    },
+    "numbers": {
+     "cells": 7,
+     "leftAligned": 0,
+     "figures": 0,
+     "tabularShare": null,
+     "kpiMax": null
+    },
+    "rows": {
+     "count": 12,
+     "median": 56
+    },
+    "chartHues": 0,
+    "placeholders": [],
+    "type": {
+     "under13": 0.05,
+     "tiny": 0,
+     "tinySamples": [],
+     "sizes": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      28
+     ]
+    },
+    "title": {
+     "text": "Ngân hàng câu hỏi",
+     "size": 28,
+     "top": 76
+    },
+    "colourShare": 0.004
+   },
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 3,
+   "filled": [
+    0.57,
+    0.36,
+    0.43
+   ],
+   "motion": {
+    "elements": 1,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 1,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 1997,
+     "screens": 2.4,
+     "words": 351,
+     "img": 0,
+     "video": 0,
+     "canvas": 0,
+     "svg": 9,
+     "sections": 0,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Ngân hàng câu hỏi",
+     "words": 4,
+     "chars": 17,
+     "lines": 1,
+     "size": 22,
+     "vw": 5.6,
+     "font": "Be Vietnam Pro",
+     "weight": 500,
+     "tracking": -0.01,
+     "leading": 1.36,
+     "top": 72,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "h1": {
+     "text": "Ngân hàng câu hỏi",
+     "words": 4,
+     "lines": 1,
+     "size": 22,
+     "font": "Be Vietnam Pro"
+    },
+    "headings": [
+     {
+      "text": "Ngân hàng câu hỏi",
+      "words": 4,
+      "chars": 17,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Be Vietnam Pro",
+      "weight": 500,
+      "tracking": -0.01,
+      "leading": 1.36,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 72,
+      "tag": "h1",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 1,
+     "maxLines": 1,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": null,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Be Vietnam Pro",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      13,
+      14,
+      15,
+      22
+     ],
+     "sizeCount": 4,
+     "notLoaded": [],
+     "body": {
+      "font": "Be Vietnam Pro",
+      "size": 14,
+      "leading": 1.43,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 6.8
+     },
+     "measureChars": 51,
+     "max": {
+      "size": 22,
+      "vw": 5.6,
+      "font": "Be Vietnam Pro",
+      "text": "Ngân hàng câu hỏi"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.02,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#f5f7f2",
+       "top": 0,
+       "hsl": {
+        "h": 84,
+        "s": 0.24,
+        "l": 0.96
+       }
+      },
+      {
+       "color": "#ffffff",
+       "top": 408,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#4b5a50",
+       "share": 0.49
+      },
+      {
+       "color": "#10241a",
+       "share": 0.42
+      },
+      {
+       "color": "#0f3a22",
+       "share": 0.06
+      },
+      {
+       "color": "#133621",
+       "share": 0.02
+      },
+      {
+       "color": "#7a4a05",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#f4d96c",
+      "hsl": {
+       "h": 48,
+       "s": 0.86,
+       "l": 0.69
+      },
+      "fg": "#133621"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 3,
+     "inHero": 3,
+     "radius": 6,
+     "height": 36,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Bỏ qua tới nội dung",
+      "Chờ duyệt 2",
+      "Tạo câu hỏi"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 1,
+     "hairlineSamples": [
+      "header.topbar 390px"
+     ],
+     "outlinedBoxes": 1,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 1,
+     "boxRadius": 12,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 0,
+     "fixed": true,
+     "height": 52,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "be vietnam pro",
+     "be vietnam pro fallback",
+     "noto sans jp",
+     "noto sans jp fallback",
+     "noto sans sc",
+     "noto sans sc fallback"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 1997,
+    "margins": {
+     "left": 16,
+     "right": 16
+    },
+    "sections": [
+     {
+      "sel": "div.title-row",
+      "tag": "div",
+      "top": 72,
+      "height": 128,
+      "words": 24,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Ngân hàng câu hỏi",
+       "size": 22,
+       "tag": "h1"
+      },
+      "left": 16,
+      "right": 16,
+      "textLeft": 16,
+      "textRight": 19,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.toolbar",
+      "tag": "div",
+      "top": 224,
+      "height": 168,
+      "words": 4,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 16,
+      "right": 16,
+      "textLeft": 282,
+      "textRight": 16,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.table-wrap",
+      "tag": "div",
+      "top": 408,
+      "height": 1533,
+      "words": 243,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 33,
+      "right": 0,
+      "textLeft": 33,
+      "textRight": -31,
+      "fullBleed": false,
+      "footer": true,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Ngân hàng câu hỏi",
+      "size": 22,
+      "top": 72,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 16,
+      "n": 2
+     }
+    ],
+    "leftBlocks": 2,
+    "bodySize": 14,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "dark": false,
+    "ground": "#ffffff",
+    "sidebar": null,
+    "topbar": {
+     "h": 52
+    },
+    "canvas": {
+     "left": 15,
+     "right": -2
+    },
+    "hero": {
+     "text": "Ngân hàng câu hỏi",
+     "words": 4,
+     "chars": 17,
+     "lines": 1,
+     "size": 22,
+     "vw": 5.6,
+     "font": "Be Vietnam Pro",
+     "weight": 500,
+     "tracking": -0.01,
+     "leading": 1.36,
+     "top": 72,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "charts": 0,
+    "layout": {
+     "panels": 1,
+     "firstScreen": 1,
+     "ragged": [],
+     "voids": []
+    },
+    "tiles": 0,
+    "panels": {
+     "count": 1,
+     "radii": [
+      [
+       12,
+       1
+      ]
+     ],
+     "heavyBorders": 0,
+     "borderSamples": [],
+     "heavyShadows": 0,
+     "softShadows": 0,
+     "shadowSamples": [],
+     "glass": 0
+    },
+    "chips": {
+     "count": 0,
+     "hues": 0,
+     "samples": []
+    },
+    "numbers": {
+     "cells": 7,
+     "leftAligned": 0,
+     "figures": 0,
+     "tabularShare": null,
+     "kpiMax": null
+    },
+    "rows": {
+     "count": 12,
+     "median": 128
+    },
+    "chartHues": 0,
+    "placeholders": [],
+    "type": {
+     "under13": 0.01,
+     "tiny": 0,
+     "tinySamples": [],
+     "sizes": [
+      11,
+      13,
+      14,
+      15,
+      16,
+      22
+     ]
+    },
+    "title": {
+     "text": "Ngân hàng câu hỏi",
+     "size": 22,
+     "top": 72
+    },
+    "colourShare": 0.002
+   },
+   "consoleErrors": []
+  }
+ ],
+ "findings": [],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "D:\\LanguageFlash\\.taste-skill\\app\\inspect-admin\\desktop-fold.jpg",
+   "pages": [
+    "D:\\LanguageFlash\\.taste-skill\\app\\inspect-admin\\desktop-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "D:\\LanguageFlash\\.taste-skill\\app\\inspect-admin\\tablet-fold.jpg",
+   "pages": [
+    "D:\\LanguageFlash\\.taste-skill\\app\\inspect-admin\\tablet-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "D:\\LanguageFlash\\.taste-skill\\app\\inspect-admin\\mobile-fold.jpg",
+   "pages": [
+    "D:\\LanguageFlash\\.taste-skill\\app\\inspect-admin\\mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

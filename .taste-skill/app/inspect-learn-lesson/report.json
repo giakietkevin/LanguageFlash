@@ -1,0 +1,1379 @@
+{
+ "url": "http://localhost:3005/vi/learn/lesson",
+ "at": "2026-10-27T22:45:21.073Z",
+ "allow": [
+  "font-not-dealt"
+ ],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 2,
+   "filled": [
+    0.86,
+    0.86
+   ],
+   "motion": {
+    "elements": 1,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 1,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 965,
+     "screens": 1.1,
+     "words": 145,
+     "img": 0,
+     "video": 0,
+     "canvas": 0,
+     "svg": 14,
+     "sections": 2,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Chặng 4 · Họp và email",
+     "words": 6,
+     "chars": 22,
+     "lines": 1,
+     "size": 28,
+     "vw": 1.9,
+     "font": "Be Vietnam Pro",
+     "weight": 500,
+     "tracking": -0.01,
+     "leading": 1.29,
+     "top": 36,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "h1": {
+     "text": "Chặng 4 · Họp và email",
+     "words": 6,
+     "lines": 1,
+     "size": 28,
+     "font": "Be Vietnam Pro"
+    },
+    "headings": [
+     {
+      "text": "Chặng 4 · Họp và email",
+      "words": 6,
+      "chars": 22,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Be Vietnam Pro",
+      "weight": 500,
+      "tracking": -0.01,
+      "leading": 1.29,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.22,
+      "top": 36,
+      "tag": "h1",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 1,
+     "maxLines": 1,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": null,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Be Vietnam Pro",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      11,
+      13,
+      14,
+      15,
+      16,
+      22,
+      28
+     ],
+     "sizeCount": 7,
+     "notLoaded": [],
+     "body": {
+      "font": "Be Vietnam Pro",
+      "size": 13,
+      "leading": 1.54,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 6.8
+     },
+     "measureChars": 112,
+     "max": {
+      "size": 28,
+      "vw": 1.9,
+      "font": "Be Vietnam Pro",
+      "text": "Chặng 4 · Họp và email"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.02,
+     "centerShare": 0.09,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#f5f7f2",
+       "top": 0,
+       "hsl": {
+        "h": 84,
+        "s": 0.24,
+        "l": 0.96
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#4b5a50",
+       "share": 0.57
+      },
+      {
+       "color": "#10241a",
+       "share": 0.38
+      },
+      {
+       "color": "#133621",
+       "share": 0.03
+      },
+      {
+       "color": "#f4d96c",
+       "share": 0.01
+      },
+      {
+       "color": "#1f5138",
+       "share": 0
+      }
+     ],
+     "button": {
+      "bg": "#ffffff",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 1
+      },
+      "fg": "#10241a"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 14,
+     "inHero": 14,
+     "radius": 8,
+     "height": 36,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Bỏ qua tới nội dung",
+      "Tiếng Anh TOEIC 500+",
+      "Bài học",
+      "Lý thuyết",
+      "Hội thoại"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 6,
+     "hairlineSamples": [
+      "aside.side 240px",
+      "li 316px",
+      "li 316px",
+      "li 316px",
+      "li 316px"
+     ],
+     "outlinedBoxes": 1,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 2,
+     "boxRadius": 12,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 0,
+     "fixed": false,
+     "height": 0,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "be vietnam pro"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 965,
+    "margins": {
+     "left": 24,
+     "right": 70
+    },
+    "sections": [],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Chặng 4 · Họp và email",
+      "size": 28,
+      "top": 36,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 1054,
+      "n": 2
+     },
+     {
+      "x": 290,
+      "n": 1
+     },
+     {
+      "x": 425,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 4,
+    "bodySize": 13,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.29,
+    "voidBox": {
+     "x": 240,
+     "y": 420,
+     "w": 780,
+     "h": 480
+    }
+   },
+   "app": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "dark": false,
+    "ground": "#ffffff",
+    "sidebar": {
+     "w": 240,
+     "tag": "aside",
+     "links": 12,
+     "share": 0.17
+    },
+    "topbar": null,
+    "canvas": {
+     "left": 50,
+     "right": 70
+    },
+    "hero": {
+     "text": "Chặng 4 · Họp và email",
+     "words": 6,
+     "chars": 22,
+     "lines": 1,
+     "size": 28,
+     "vw": 1.9,
+     "font": "Be Vietnam Pro",
+     "weight": 500,
+     "tracking": -0.01,
+     "leading": 1.29,
+     "top": 36,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "charts": 0,
+    "layout": {
+     "panels": 3,
+     "firstScreen": 3,
+     "ragged": [
+      {
+       "diff": 162,
+       "top": 166
+      }
+     ],
+     "voids": []
+    },
+    "tiles": 0,
+    "panels": {
+     "count": 3,
+     "radii": [
+      [
+       12,
+       2
+      ],
+      [
+       0,
+       1
+      ]
+     ],
+     "heavyBorders": 0,
+     "borderSamples": [],
+     "heavyShadows": 0,
+     "softShadows": 0,
+     "shadowSamples": [],
+     "glass": 0
+    },
+    "chips": {
+     "count": 0,
+     "hues": 0,
+     "samples": []
+    },
+    "numbers": {
+     "cells": 0,
+     "leftAligned": 0,
+     "figures": 0,
+     "tabularShare": null,
+     "kpiMax": null
+    },
+    "rows": null,
+    "chartHues": 0,
+    "placeholders": [],
+    "type": {
+     "under13": 0,
+     "tiny": 0,
+     "tinySamples": [],
+     "sizes": [
+      11,
+      13,
+      14,
+      15,
+      16,
+      22,
+      28
+     ]
+    },
+    "title": {
+     "text": "Chặng 4 · Họp và email",
+     "size": 28,
+     "top": 36
+    },
+    "colourShare": 0
+   },
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 2,
+   "filled": [
+    0.63,
+    0.77
+   ],
+   "motion": {
+    "elements": 1,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 1,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 1271,
+     "screens": 1.2,
+     "words": 116,
+     "img": 0,
+     "video": 0,
+     "canvas": 0,
+     "svg": 14,
+     "sections": 2,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Chặng 4 · Họp và email",
+     "words": 6,
+     "chars": 22,
+     "lines": 1,
+     "size": 28,
+     "vw": 3.6,
+     "font": "Be Vietnam Pro",
+     "weight": 500,
+     "tracking": -0.01,
+     "leading": 1.29,
+     "top": 76,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "h1": {
+     "text": "Chặng 4 · Họp và email",
+     "words": 6,
+     "lines": 1,
+     "size": 28,
+     "font": "Be Vietnam Pro"
+    },
+    "headings": [
+     {
+      "text": "Chặng 4 · Họp và email",
+      "words": 6,
+      "chars": 22,
+      "lines": 1,
+      "size": 28,
+      "vw": 3.6,
+      "font": "Be Vietnam Pro",
+      "weight": 500,
+      "tracking": -0.01,
+      "leading": 1.29,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.4,
+      "top": 76,
+      "tag": "h1",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 1,
+     "maxLines": 1,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": null,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Be Vietnam Pro",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      13,
+      14,
+      15,
+      16,
+      22,
+      28
+     ],
+     "sizeCount": 6,
+     "notLoaded": [],
+     "body": {
+      "font": "Be Vietnam Pro",
+      "size": 13,
+      "leading": 1.54,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 6.8
+     },
+     "measureChars": 112,
+     "max": {
+      "size": 28,
+      "vw": 3.6,
+      "font": "Be Vietnam Pro",
+      "text": "Chặng 4 · Họp và email"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.09,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#f5f7f2",
+       "top": 0,
+       "hsl": {
+        "h": 84,
+        "s": 0.24,
+        "l": 0.96
+       }
+      },
+      {
+       "color": "#edf1e8",
+       "top": 480,
+       "hsl": {
+        "h": 87,
+        "s": 0.24,
+        "l": 0.93
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#4b5a50",
+       "share": 0.52
+      },
+      {
+       "color": "#10241a",
+       "share": 0.43
+      },
+      {
+       "color": "#133621",
+       "share": 0.04
+      },
+      {
+       "color": "#f4d96c",
+       "share": 0.02
+      }
+     ],
+     "button": {
+      "bg": "#ffffff",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 1
+      },
+      "fg": "#10241a"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 12,
+     "inHero": 11,
+     "radius": 8,
+     "height": 36,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Bỏ qua tới nội dung",
+      "Lý thuyết",
+      "Hội thoại",
+      "Ngữ pháp",
+      "Mini-quiz"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 6,
+     "hairlineSamples": [
+      "header.topbar 768px",
+      "li 688px",
+      "li 688px",
+      "li 688px",
+      "li 688px"
+     ],
+     "outlinedBoxes": 1,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 2,
+     "boxRadius": 12,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 0,
+     "fixed": true,
+     "height": 52,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "be vietnam pro"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 1271,
+    "margins": {
+     "left": 20,
+     "right": 40
+    },
+    "sections": [
+     {
+      "sel": "div.s8",
+      "tag": "div",
+      "top": 170,
+      "height": 258,
+      "words": 41,
+      "media": 0,
+      "middle": 8,
+      "heading": {
+       "text": "I ___ (send) the invoice to the client already.",
+       "size": 22,
+       "tag": "p"
+      },
+      "left": 20,
+      "right": 49,
+      "textLeft": 20,
+      "textRight": 70,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "aside.s4",
+      "tag": "aside",
+      "top": 480,
+      "height": 727,
+      "words": 47,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Các bước của chặng",
+       "size": 16,
+       "tag": "h2"
+      },
+      "left": 40,
+      "right": 40,
+      "textLeft": 40,
+      "textRight": 40,
+      "fullBleed": false,
+      "footer": true,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Chặng 4 · Họp và email",
+      "size": 28,
+      "top": 76,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 40,
+      "n": 2
+     },
+     {
+      "x": 20,
+      "n": 1
+     },
+     {
+      "x": 155,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 4,
+    "bodySize": 13,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "dark": false,
+    "ground": "#ffffff",
+    "sidebar": null,
+    "topbar": {
+     "h": 52
+    },
+    "canvas": {
+     "left": 20,
+     "right": 24
+    },
+    "hero": {
+     "text": "Chặng 4 · Họp và email",
+     "words": 6,
+     "chars": 22,
+     "lines": 1,
+     "size": 28,
+     "vw": 3.6,
+     "font": "Be Vietnam Pro",
+     "weight": 500,
+     "tracking": -0.01,
+     "leading": 1.29,
+     "top": 76,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "charts": 0,
+    "layout": {
+     "panels": 3,
+     "firstScreen": 3,
+     "ragged": [],
+     "voids": []
+    },
+    "tiles": 0,
+    "panels": {
+     "count": 3,
+     "radii": [
+      [
+       12,
+       2
+      ],
+      [
+       0,
+       1
+      ]
+     ],
+     "heavyBorders": 0,
+     "borderSamples": [],
+     "heavyShadows": 0,
+     "softShadows": 0,
+     "shadowSamples": [],
+     "glass": 0
+    },
+    "chips": {
+     "count": 0,
+     "hues": 0,
+     "samples": []
+    },
+    "numbers": {
+     "cells": 0,
+     "leftAligned": 0,
+     "figures": 0,
+     "tabularShare": null,
+     "kpiMax": null
+    },
+    "rows": null,
+    "chartHues": 0,
+    "placeholders": [],
+    "type": {
+     "under13": 0,
+     "tiny": 0,
+     "tinySamples": [],
+     "sizes": [
+      11,
+      13,
+      14,
+      15,
+      16,
+      22,
+      28
+     ]
+    },
+    "title": {
+     "text": "Chặng 4 · Họp và email",
+     "size": 28,
+     "top": 76
+    },
+    "colourShare": 0.001
+   },
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 2,
+   "filled": [
+    0.56,
+    0.77
+   ],
+   "motion": {
+    "elements": 1,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 1,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 1333,
+     "screens": 1.6,
+     "words": 116,
+     "img": 0,
+     "video": 0,
+     "canvas": 0,
+     "svg": 14,
+     "sections": 2,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Chặng 4 · Họp và email",
+     "words": 6,
+     "chars": 22,
+     "lines": 1,
+     "size": 22,
+     "vw": 5.6,
+     "font": "Be Vietnam Pro",
+     "weight": 500,
+     "tracking": -0.01,
+     "leading": 1.36,
+     "top": 72,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "h1": {
+     "text": "Chặng 4 · Họp và email",
+     "words": 6,
+     "lines": 1,
+     "size": 22,
+     "font": "Be Vietnam Pro"
+    },
+    "headings": [
+     {
+      "text": "Chặng 4 · Họp và email",
+      "words": 6,
+      "chars": 22,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Be Vietnam Pro",
+      "weight": 500,
+      "tracking": -0.01,
+      "leading": 1.36,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 72,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "I ___ (send) the invoice to the client already.",
+      "words": 9,
+      "chars": 47,
+      "lines": 2,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Be Vietnam Pro",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1.45,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.83,
+      "top": 245,
+      "tag": "p",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 2,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 6,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Be Vietnam Pro",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      13,
+      14,
+      15,
+      16,
+      22
+     ],
+     "sizeCount": 5,
+     "notLoaded": [],
+     "body": {
+      "font": "Be Vietnam Pro",
+      "size": 13,
+      "leading": 1.54,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 6.8
+     },
+     "measureChars": 55,
+     "max": {
+      "size": 22,
+      "vw": 5.6,
+      "font": "Be Vietnam Pro",
+      "text": "Chặng 4 · Họp và email"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.09,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#f5f7f2",
+       "top": 0,
+       "hsl": {
+        "h": 84,
+        "s": 0.24,
+        "l": 0.96
+       }
+      },
+      {
+       "color": "#edf1e8",
+       "top": 550,
+       "hsl": {
+        "h": 87,
+        "s": 0.24,
+        "l": 0.93
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#4b5a50",
+       "share": 0.52
+      },
+      {
+       "color": "#10241a",
+       "share": 0.43
+      },
+      {
+       "color": "#133621",
+       "share": 0.04
+      },
+      {
+       "color": "#f4d96c",
+       "share": 0.02
+      }
+     ],
+     "button": {
+      "bg": "#ffffff",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 1
+      },
+      "fg": "#10241a"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 12,
+     "inHero": 11,
+     "radius": 8,
+     "height": 36,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Bỏ qua tới nội dung",
+      "Lý thuyết",
+      "Hội thoại",
+      "Ngữ pháp",
+      "Mini-quiz"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 6,
+     "hairlineSamples": [
+      "header.topbar 390px",
+      "li 318px",
+      "li 318px",
+      "li 318px",
+      "li 318px"
+     ],
+     "outlinedBoxes": 1,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 2,
+     "boxRadius": 12,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 0,
+     "fixed": true,
+     "height": 52,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "be vietnam pro"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 1333,
+    "margins": {
+     "left": 16,
+     "right": 19
+    },
+    "sections": [
+     {
+      "sel": "div.s8",
+      "tag": "div",
+      "top": 152,
+      "height": 346,
+      "words": 41,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "I ___ (send) the invoice to the client already.",
+       "size": 22,
+       "tag": "p"
+      },
+      "left": 16,
+      "right": 0,
+      "textLeft": 16,
+      "textRight": -2,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "aside.s4",
+      "tag": "aside",
+      "top": 550,
+      "height": 727,
+      "words": 47,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Các bước của chặng",
+       "size": 16,
+       "tag": "h2"
+      },
+      "left": 36,
+      "right": 36,
+      "textLeft": 36,
+      "textRight": 36,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Chặng 4 · Họp và email",
+      "size": 22,
+      "top": 72,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 36,
+      "n": 2
+     },
+     {
+      "x": 16,
+      "n": 1
+     },
+     {
+      "x": 122,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 4,
+    "bodySize": 13,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "dark": false,
+    "ground": "#ffffff",
+    "sidebar": null,
+    "topbar": {
+     "h": 52
+    },
+    "canvas": {
+     "left": 16,
+     "right": -2
+    },
+    "hero": {
+     "text": "Chặng 4 · Họp và email",
+     "words": 6,
+     "chars": 22,
+     "lines": 1,
+     "size": 22,
+     "vw": 5.6,
+     "font": "Be Vietnam Pro",
+     "weight": 500,
+     "tracking": -0.01,
+     "leading": 1.36,
+     "top": 72,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "charts": 0,
+    "layout": {
+     "panels": 3,
+     "firstScreen": 2,
+     "ragged": [],
+     "voids": []
+    },
+    "tiles": 0,
+    "panels": {
+     "count": 3,
+     "radii": [
+      [
+       12,
+       2
+      ],
+      [
+       0,
+       1
+      ]
+     ],
+     "heavyBorders": 0,
+     "borderSamples": [],
+     "heavyShadows": 0,
+     "softShadows": 0,
+     "shadowSamples": [],
+     "glass": 0
+    },
+    "chips": {
+     "count": 0,
+     "hues": 0,
+     "samples": []
+    },
+    "numbers": {
+     "cells": 0,
+     "leftAligned": 0,
+     "figures": 0,
+     "tabularShare": null,
+     "kpiMax": null
+    },
+    "rows": null,
+    "chartHues": 0,
+    "placeholders": [],
+    "type": {
+     "under13": 0,
+     "tiny": 0,
+     "tinySamples": [],
+     "sizes": [
+      11,
+      13,
+      14,
+      15,
+      16,
+      22
+     ]
+    },
+    "title": {
+     "text": "Chặng 4 · Họp và email",
+     "size": 22,
+     "top": 72
+    },
+    "colourShare": 0.002
+   },
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "hero-void",
+   "width": 1440,
+   "message": "29% of the first screen is one empty block (780×480px at 240,420).",
+   "fix": "Place the void on purpose or fill it: move the picture, the film or one fact into it, grow the headline to meet it, or shrink the screen to its content. A void reads as placed only when something closes it on the far side and it is the screen's one rest."
+  },
+  {
+   "level": "WARN",
+   "id": "ragged-row",
+   "width": 1440,
+   "message": "1 pair(s) of cards in one row end at different heights (by 162px).",
+   "fix": "Cards that share a row share a bottom edge: balance them by their content (the same number of rows, a block of similar height beside it), or stack them. In testing, ragged rows were marked down every time."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "D:\\LanguageFlash\\.taste-skill\\app\\inspect-learn-lesson\\desktop-fold.jpg",
+   "pages": [
+    "D:\\LanguageFlash\\.taste-skill\\app\\inspect-learn-lesson\\desktop-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "D:\\LanguageFlash\\.taste-skill\\app\\inspect-learn-lesson\\tablet-fold.jpg",
+   "pages": [
+    "D:\\LanguageFlash\\.taste-skill\\app\\inspect-learn-lesson\\tablet-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "D:\\LanguageFlash\\.taste-skill\\app\\inspect-learn-lesson\\mobile-fold.jpg",
+   "pages": [
+    "D:\\LanguageFlash\\.taste-skill\\app\\inspect-learn-lesson\\mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

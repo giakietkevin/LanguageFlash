@@ -1,0 +1,259 @@
+/* The flashcard and its grade bar, shared by the landing page and the review session.
+   The context sets --card-* ; the defaults are the app's. */
+
+.fc {
+  --card-bg: var(--app-surface);
+  --card-ink: var(--text);
+  --card-muted: var(--app-muted);
+  --card-btn-bg: var(--primary);
+  --card-btn-ink: var(--primary-ink);
+  --card-quiet: var(--raised);
+  position: relative;
+  color: var(--card-ink);
+  padding-top: 40px; /* room for the tabs */
+}
+
+.fc-tabs {
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 40px;
+  display: flex;
+  gap: 4px;
+  padding-left: 20px;
+}
+
+.fc-inner {
+  display: grid;
+  background: var(--card-bg);
+  perspective: 1400px;
+  min-height: 320px;
+}
+
+.fc-face {
+  grid-area: 1 / 1;
+  padding: clamp(24px, 4vw, 40px);
+  display: flex;
+  flex-direction: column;
+  backface-visibility: hidden;
+  transition:
+    transform 520ms var(--ease-out),
+    opacity 260ms linear,
+    visibility 0s linear 520ms;
+}
+.fc-front {
+  justify-content: space-between;
+}
+.fc-back {
+  transform: rotateY(-180deg);
+  opacity: 0;
+  visibility: hidden;
+  gap: 20px;
+}
+.fc[data-flipped] .fc-front {
+  transform: rotateY(180deg);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+.fc[data-flipped] .fc-back {
+  transform: rotateY(0);
+  opacity: 1;
+  visibility: visible;
+  transition-delay: 0s;
+}
+.fc:not([data-flipped]) .fc-front {
+  transition-delay: 0s;
+}
+.fc:not([data-flipped]) .fc-back {
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fc-face {
+    transition: opacity 120ms linear;
+    transform: none !important;
+  }
+}
+
+.fc-pos {
+  font-size: 0.9375rem;
+  color: var(--card-muted);
+}
+.fc-term {
+  font-size: clamp(2.75rem, 2rem + 4vw, 5rem);
+  font-weight: 700;
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+  margin: 24px 0 8px;
+  overflow-wrap: anywhere;
+}
+.fc-term ruby rt {
+  color: var(--card-muted);
+}
+.fc-term-small {
+  font-size: clamp(1.75rem, 1.4rem + 1.6vw, 2.5rem);
+  margin: 0;
+}
+.fc-reading {
+  font-size: 1.125rem;
+  color: var(--card-muted);
+}
+.fc-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 32px;
+}
+.fc-back-head {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+}
+.fc-back-head .fc-speak {
+  margin-left: auto;
+  align-self: center;
+}
+.fc-meaning {
+  font-size: clamp(1.375rem, 1.2rem + 0.8vw, 1.75rem);
+  font-weight: 600;
+  line-height: 1.25;
+}
+.fc-example {
+  background: var(--card-quiet);
+  padding: 16px 20px;
+}
+.fc-example-line {
+  font-size: 1.0625rem;
+  font-weight: 500;
+}
+.fc-example-meaning {
+  font-size: 1rem;
+  margin-top: 4px;
+}
+.fc-context {
+  font-size: 0.875rem;
+  color: var(--card-muted);
+  margin-top: 8px;
+}
+
+.fc-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 48px;
+  padding: 0 24px;
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+  border: 0;
+  clip-path: polygon(10px 0, calc(100% - 10px) 0, 100% 100%, 0 100%);
+  transition:
+    transform 140ms var(--ease-out),
+    background-color 140ms linear;
+}
+.fc-btn:active {
+  transform: translateY(1px) scale(0.98);
+}
+.fc-btn:focus-visible {
+  outline: none;
+  box-shadow: inset 0 0 0 3px var(--card-ink); /* taste-skill-ignore: focus ring; clip-path cuts an outline */
+}
+.fc-btn-primary {
+  background: var(--card-btn-bg);
+  color: var(--card-btn-ink);
+}
+.fc-speak {
+  width: 48px;
+  padding: 0;
+  background: var(--card-quiet);
+  color: var(--card-ink);
+}
+.fc-speak:hover {
+  background: color-mix(in srgb, var(--card-quiet) 80%, var(--card-ink));
+}
+.fc-inline-speak {
+  display: inline-flex;
+  vertical-align: -3px;
+  margin-left: 8px;
+  padding: 2px;
+  border: 0;
+  background: none;
+  color: var(--card-muted);
+  cursor: pointer;
+}
+.fc-inline-speak:hover {
+  color: var(--card-ink);
+}
+
+/* Grade bar */
+.grade-bar {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 4px;
+}
+.grade {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+  min-height: 64px;
+  padding: 10px 14px;
+  border: 0;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+  background: var(--grade-bg, var(--raised));
+  color: var(--grade-ink, var(--text));
+  clip-path: polygon(8px 0, calc(100% - 8px) 0, 100% 100%, 0 100%);
+  transition:
+    transform 140ms var(--ease-out),
+    background-color 140ms linear;
+}
+.grade:hover {
+  background: var(--grade-hover, var(--active));
+}
+.grade:active {
+  transform: translateY(1px);
+}
+.grade:focus-visible {
+  outline: none;
+  box-shadow: inset 0 0 0 3px var(--grade-ink, var(--text)); /* taste-skill-ignore: focus ring; clip-path cuts an outline */
+}
+.grade:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+.grade-name {
+  font-weight: 600;
+  font-size: 1rem;
+}
+.grade-next {
+  font-size: 0.875rem;
+  opacity: 0.85;
+}
+.grade[data-grade="again"] .grade-name::before {
+  content: "1 ";
+  font-weight: 500;
+  opacity: 0.6;
+}
+.grade[data-grade="hard"] .grade-name::before {
+  content: "2 ";
+  font-weight: 500;
+  opacity: 0.6;
+}
+.grade[data-grade="good"] .grade-name::before {
+  content: "3 ";
+  font-weight: 500;
+  opacity: 0.6;
+}
+.grade[data-grade="easy"] .grade-name::before {
+  content: "4 ";
+  font-weight: 500;
+  opacity: 0.6;
+}
+@media (hover: none) {
+  .grade .grade-name::before {
+    content: none !important;
+  }
+}

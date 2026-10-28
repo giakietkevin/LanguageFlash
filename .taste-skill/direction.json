@@ -1,0 +1,599 @@
+{
+ "version": 1,
+ "at": "2026-10-27T22:04:54.281Z",
+ "seed": 1963822588,
+ "redraws": 0,
+ "input": {
+  "brief": "Free language-learning platform for Vietnamese learners: SRS flashcards, adaptive placement test, skill tree to TOEIC/IELTS/HSK/JLPT/DELF",
+  "sector": "education",
+  "tone": "technical",
+  "have": [
+   "product-ui"
+  ],
+  "keep": [],
+  "avoid": [],
+  "sections": [
+   "how-it-works",
+   "features",
+   "showcase",
+   "list",
+   "pricing",
+   "faq",
+   "cta",
+   "footer"
+  ],
+  "direction": "one-motif"
+ },
+ "imagery": "atmosphere",
+ "allow": [],
+ "direction": {
+  "id": "one-motif",
+  "name": "One motif",
+  "sectors": [
+   "saas",
+   "finance",
+   "consumer-app",
+   "ai-product",
+   "dev-tool",
+   "health",
+   "physical-product",
+   "restaurant",
+   "education",
+   "nonprofit",
+   "other"
+  ],
+  "tones": [
+   "playful",
+   "technical",
+   "warm",
+   "bold"
+  ],
+  "needs": [],
+  "idea": "Take one shape from the subject and let it run the whole system. A drilling tool's octagonal cross-section becomes the buttons, the image masks and the loader. A two-account money app becomes two circles that recur as icon, inline dot and section colour. A café's striped awning becomes every band on the page. Look at the product, the logo, the object or the word in the headline and find the simplest geometry in it (a circle, an arc, a chamfer, a stripe, a notch, a ring). Then use only that shape, at three or four very different scales, everywhere a designer would normally reach for a generic rounded rectangle.",
+  "composition": "Hero: the motif appears once at enormous scale as a flat filled shape, cropped by the viewport (a circle 120vh across entering from the right, a chamfered block filling the lower half), with a short headline at 6–8vw and one supporting sentence set on the remaining ground, left-aligned on a shared margin. Through the page the motif returns as: the mask for every photograph (via `clip-path` or `border-radius` made from the same geometry), the shape of the primary button, the bullet beside list items at text size, and one full-width band that separates the two halves of the page. Sections use simple two-column or single-column layouts so the shape is the only thing with character.",
+  "typography": "A clean geometric or grotesk face that echoes the shape (round bowls for circles, squared terminals for chamfers). Medium weight; headings 6–8vw in the hero and 3–4vw after.",
+  "typeClasses": [
+   "geometric",
+   "grotesk-tight",
+   "rounded-friendly"
+  ],
+  "colour": "The motif carries the accent colour at large scale, flat. Everything else is ground and ink. A second motif colour is allowed only if the subject has a real pair (two accounts, two modes).",
+  "paletteTags": [
+   "mono-accent",
+   "two-tone",
+   "pastel-fields"
+  ],
+  "imagery": "Photographs appear inside the motif's shape. If there is product interface to show, it sits on a flat colour stage shaped by the motif. Draw the shape with CSS or a simple inline SVG path; do not draw illustrations.",
+  "sectionTags": [
+   "colour-field",
+   "object-led",
+   "type-led"
+  ],
+  "motion": "shutter-image",
+  "richness": "One shape at many sizes. The giant cropped shape gives the hero mass and colour without a single image.",
+  "pitfalls": "One motif means one. A circle here, a hexagon there and a blob behind is the generated look this replaces. The motif must come from the subject and you must be able to say from where in one clause.",
+  "seenIn": [
+   "aww-sstr-friction-reduction",
+   "opl-tara",
+   "opl-boaxt",
+   "opl-midnight-2",
+   "opl-superlocal-2026",
+   "opl-billow"
+  ],
+  "allow": []
+ },
+ "hero": {
+  "id": "tabbed-folder-stack",
+  "name": "Tabbed folder stack",
+  "archetype": "artefact",
+  "directions": [
+   "page-is-the-object",
+   "one-motif",
+   "colour-chapters"
+  ],
+  "needs": [],
+  "blueprint": "A dark flat ground. A slim top row at 24px holds the wordmark dead centre and one text link far right at 15px. The headline is one centred line of heavy condensed capitals at clamp(96px, 10vw, 160px), spanning about 70% of the width, its cap line 110px from the top. Under it one supporting sentence in a serif at 20px, centred, max 46ch. From 51% of the height down the screen is a stack of five file folders: flat colour bands 86% of the viewport wide, centred, each offset 64px below the one behind so only a strip of the back four shows. Every folder has one trapezoid tab rising 40px from its top edge, cut with `clip-path: polygon()`, at its own horizontal position and in its own colour, holding one section name at 18px. The front folder is open and runs off the bottom edge; it carries the single action as a solid button at its top-left with 32px padding. Each folder links to its section and lends that section its ground colour. The tab shape returns as the button's top corners.",
+  "mobile": "The headline sits 96px down at 17vw on one line, or two at 15vw, centred, with the supporting sentence at 16px beneath. The folder stack starts at 48svh at full width: bands offset 52px, tabs 32px tall with names at 15px, staggered left, centre and right. The front folder runs off the bottom with the action button at full width inside it.",
+  "headline": "The name or a two-word statement on one line of up to about 12 characters at 10vw; two lines allowed on a phone.",
+  "motion": "index-preview",
+  "seenIn": [
+   "aww-mosbys-files",
+   "opl-medium-rare"
+  ]
+ },
+ "type": {
+  "id": "general-sans-bold",
+  "name": "General Sans",
+  "class": "grotesk-tight",
+  "display": {
+   "family": "General Sans",
+   "source": "fontshare",
+   "slug": "general-sans",
+   "weights": [
+    700
+   ],
+   "italic": false,
+   "settings": "weight 700 · tracking -0.02em · leading 0.9 · sentence case; sizes jump straight from 16px text to 10vw and larger",
+   "css": "<link rel=\"preconnect\" href=\"https://api.fontshare.com\">\n<link rel=\"preconnect\" href=\"https://cdn.fontshare.com\" crossorigin>\n<link href=\"https://api.fontshare.com/v2/css?f[]=general-sans@400,500,700&display=swap\" rel=\"stylesheet\">"
+  },
+  "text": {
+   "family": "General Sans",
+   "source": "fontshare",
+   "slug": "general-sans",
+   "weights": [
+    400,
+    500
+   ],
+   "italic": false,
+   "settings": "400 for body and lists, 500 for emphasis · leading 1.45 · tracking 0",
+   "css": "<link rel=\"preconnect\" href=\"https://api.fontshare.com\">\n<link rel=\"preconnect\" href=\"https://cdn.fontshare.com\" crossorigin>\n<link href=\"https://api.fontshare.com/v2/css?f[]=general-sans@400,500,700&display=swap\" rel=\"stylesheet\">"
+  },
+  "standsInFor": [
+   "PP Neue Montreal",
+   "Aeonik"
+  ],
+  "note": "A grotesk with slightly geometric bowls, set bold and very large against plain 16px text with nothing in between. Suits studios, type and product launches, and finance or tech brands that lead with the name.",
+  "seenIn": [
+   "aww-pp-neue-montreal",
+   "aww-moto-finance",
+   "opl-brikkenco",
+   "aww-nothin"
+  ],
+  "links": [
+   "https://api.fontshare.com/v2/css?f[]=general-sans@400,500,700&display=swap"
+  ],
+  "scale": {
+   "step-small": "clamp(0.8125rem, 0.79rem + 0.1vw, 0.875rem)",
+   "step-body": "clamp(1.0625rem, 1rem + 0.25vw, 1.1875rem)",
+   "step-lead": "clamp(1.25rem, 1.1rem + 0.7vw, 1.625rem)",
+   "step-head": "clamp(2rem, 1.3rem + 3.2vw, 4rem)"
+  }
+ },
+ "palette": {
+  "id": "bottle-green-gold",
+  "name": "Bottle green, gold",
+  "tags": [
+   "two-tone",
+   "earth"
+  ],
+  "bg": "#133621",
+  "surface": "#1a4429",
+  "ink": "#f4d96c",
+  "muted": "#b3a55e",
+  "accent": "#f4d96c",
+  "accentInk": "#133621",
+  "note": "Bottle green covers the page and warm gold sets all the type, with panels one step lighter than the ground. The button is solid gold with green text, and photographs are kept dark and warm so the pair is not disturbed.",
+  "seenIn": [
+   "aww-lacoste-ace-breaker"
+  ]
+ },
+ "photos": {
+  "set": "forest",
+  "title": "Forest",
+  "note": "woodland, paths between trees, moss and filtered light",
+  "treatment": null,
+  "others": [
+   "fog-and-quiet",
+   "people",
+   "city-day",
+   "field-and-farm"
+  ],
+  "photos": [
+   {
+    "id": 229,
+    "alt": "Path through tall pine trees fading into blue-grey fog",
+    "tone": "dark",
+    "colours": [
+     "blue grey",
+     "dark green"
+    ],
+    "mono": false,
+    "calm": "none",
+    "quality": 5,
+    "ratio": 1.5,
+    "by": "Orlova Maria",
+    "page": "https://unsplash.com/photos/7FLh300YONc"
+   },
+   {
+    "id": 919,
+    "alt": "Tall straight pine trunks above a bright green forest floor",
+    "tone": "mid",
+    "colours": [
+     "fresh green",
+     "red brown",
+     "dark brown"
+    ],
+    "mono": false,
+    "calm": "none",
+    "quality": 4,
+    "ratio": 1.5,
+    "by": "Jon Ottosson",
+    "page": "https://unsplash.com/photos/JU2MgHOHDsw"
+   },
+   {
+    "id": 730,
+    "alt": "Snow-dusted conifer forest fading into pale winter fog",
+    "tone": "light",
+    "colours": [
+     "frost white",
+     "pale grey",
+     "slate green"
+    ],
+    "mono": false,
+    "calm": "top",
+    "quality": 4,
+    "ratio": 1.5,
+    "by": "Ryan Pohanic",
+    "page": "https://unsplash.com/photos/W3V2tQAZxPA"
+   },
+   {
+    "id": 878,
+    "alt": "Bare gnarled trees in fog, black and white",
+    "tone": "dark",
+    "colours": [
+     "black",
+     "grey",
+     "white"
+    ],
+    "mono": true,
+    "calm": "none",
+    "quality": 4,
+    "ratio": 1.51,
+    "by": "Richard Loader",
+    "page": "https://unsplash.com/photos/qsEJGX4VqYU"
+   },
+   {
+    "id": 877,
+    "alt": "Tall tree trunks in a misty forest with blue-grey light",
+    "tone": "mid",
+    "colours": [
+     "slate blue",
+     "dark brown",
+     "mist grey"
+    ],
+    "mono": false,
+    "calm": "none",
+    "quality": 4,
+    "ratio": 1.66,
+    "by": "Sebastian Unrau",
+    "page": "https://unsplash.com/photos/dJVU4jXV1Q8"
+   },
+   {
+    "id": 944,
+    "alt": "Wooden footbridge with railings leading into lush green forest",
+    "tone": "dark",
+    "colours": [
+     "deep green",
+     "warm brown",
+     "grey"
+    ],
+    "mono": false,
+    "calm": "none",
+    "quality": 4,
+    "ratio": 1.5,
+    "by": "Tim Swaan",
+    "page": "https://unsplash.com/photos/eOpewngf68w"
+   },
+   {
+    "id": 923,
+    "alt": "Misty autumn forest path covered in red fallen leaves",
+    "tone": "mid",
+    "colours": [
+     "rust red",
+     "soft pink",
+     "mist grey"
+    ],
+    "mono": false,
+    "calm": "none",
+    "quality": 4,
+    "ratio": 1.71,
+    "by": "Sebastian Unrau",
+    "page": "https://unsplash.com/photos/CoD2Q92UaEg"
+   },
+   {
+    "id": 559,
+    "alt": "Snow-covered lane lined with bare frosted trees",
+    "tone": "light",
+    "colours": [
+     "white",
+     "grey brown"
+    ],
+    "mono": false,
+    "calm": "bottom",
+    "quality": 4,
+    "ratio": 1.51,
+    "by": "Ali Inay",
+    "page": "https://unsplash.com/photos/yNaGxHqjOuw"
+   }
+  ]
+ },
+ "motion": {
+  "id": "index-preview",
+  "name": "Index with preview",
+  "description": "Rows of text are the navigation through the work; pointing at a row brings up its image in one fixed frame and dims the other rows. On touch screens each row shows its image inline instead. Fast and exact (about 240ms crossfade), no lag behind the pointer. Recipe: 'Index with preview, anchored to the row' in references/motion.md."
+ },
+ "sections": [
+  {
+   "id": "how-it-works-accordion-of-tinted-panels",
+   "role": "how-it-works",
+   "name": "Accordion of tinted panels",
+   "shape": "strip",
+   "tags": [
+    "colour-field",
+    "poster"
+   ],
+   "directions": [
+    "colour-chapters",
+    "one-motif",
+    "loud-flat-poster",
+    "dense-tiles",
+    "borrowed-category"
+   ],
+   "needs": [],
+   "blueprint": "A two-column introduction, then one horizontal accordion. Introduction: the heading, two to four words at clamp(36px, 4vw, 60px), in columns 1–5; one paragraph at 18px in columns 7–11. 64px below, a flex row across columns 1–12, 520px tall, of four to six panels with no gaps. The open stage is a panel taking about 58% of the width; the rest are vertical slivers sharing what remains. Order is carried by colour: the first stage is the darkest tone of one hue and each later stage is a lighter flat tint of it, so the row reads dark to light from left to right. A sliver shows only its stage name, rotated 90 degrees and reading upward, at 20px bold, anchored to its bottom-left. The open panel shows the name at 40px top-left, a 36ch paragraph at 18px bottom-left and, optionally, one photograph in its right half. Clicking a sliver opens it (flex-basis transition, 450ms).",
+   "mobile": "The accordion turns vertical: stages stack at full width as bars 64px tall in the same dark-to-light order, names set horizontally at 18px. The open stage expands to its content height with the paragraph at 17px. The first stage is open by default.",
+   "seenIn": [
+    "aww-white-desert"
+   ]
+  },
+  {
+   "id": "features-close-ups-on-a-board",
+   "role": "features",
+   "name": "Close-ups on a board",
+   "shape": "mosaic",
+   "tags": [
+    "ui-led",
+    "dense",
+    "colour-field"
+   ],
+   "directions": [
+    "dense-tiles",
+    "loud-flat-poster",
+    "colour-chapters",
+    "one-motif",
+    "borrowed-category",
+    "dark-room"
+   ],
+   "needs": [],
+   "blueprint": "A board of filled tiles, each a macro view of one small part of the interface. A 12-column grid with 8px gaps, 104px rows and 10px outer margins, no empty cells, no outlines. Eight tiles in four sizes: 6×4, 6×2, 3×4 and 3×2 (columns × rows). Each tile is a flat palette colour with overflow: hidden and holds one real element, built in em and enlarged to 300–400% through the font-size of its data-ui root: a toggle, a pair of key caps, a status word on its block, one figure from a readout, a slider thumb on its track, three stacked initials discs. The element is pushed off-centre so two of the tile's edges crop it. Bottom-left in every tile, 20px in: the capability's name at 18px medium and one line at 15px. One 6×2 tile holds only the heading, two to four words at clamp(36px, 4vw, 60px), top-left.",
+   "mobile": "Two columns, 6px gaps, rows of 28vw. Large tiles span both columns and three rows; the rest are one column by two rows. The heading tile leads at full width, two rows tall, type at 9vw. Enlarged elements keep their scale and are cropped harder; captions stay bottom-left at 16px and 14px.",
+   "seenIn": [
+    "opl-woblo",
+    "opl-uglycash",
+    "opl-uncle-rudy"
+   ]
+  },
+  {
+   "id": "showcase-square-plate-spare-text",
+   "role": "showcase",
+   "name": "Square plate, spare text",
+   "shape": "split",
+   "tags": [
+    "colour-field",
+    "photo-led"
+   ],
+   "directions": [
+    "split-stage",
+    "page-is-the-object",
+    "colour-chapters",
+    "editorial-report",
+    "one-motif",
+    "name-as-monument"
+   ],
+   "needs": [],
+   "blueprint": "One flat field split 50/50, at least 88svh tall. Left half: a single square photograph filling the half's width minus 40px margins, vertically centred, square corners. A large simple shape may be laid over it to turn the photograph into the object it stands for: a ring 86% of its width with a 6px stroke and a small solid dot at the centre makes a record; a notch cut by clip-path makes a ticket stub. Right half, a flex column with space-between: at the top a row of three plain text tabs at 18px (editions, years, variants), the active one in full ink and the others at 40%; in the middle the title, two to four words at 32–40px bold, with a 34ch description 48px below; along the bottom two filled rectangular cells side by side, each half the column wide and 72px tall, acting as the two actions, one in ink and one a tone off the field.",
+   "mobile": "The square photograph comes first at full width with 16px margins. The tabs sit under it as one row at 17px. Then the title at 28px, the description, and the two action cells stacked, each full width and 60px tall.",
+   "seenIn": [
+    "aww-paul-kalkbrenner"
+   ]
+  },
+  {
+   "id": "list-menu-photo-bullets",
+   "role": "list",
+   "name": "Two-column menu, photo bullets",
+   "shape": "grid",
+   "tags": [
+    "object-led",
+    "photo-led"
+   ],
+   "directions": [
+    "specimen-catalogue",
+    "one-motif",
+    "hero-object",
+    "colour-chapters"
+   ],
+   "needs": [],
+   "blueprint": "A menu or catalogue list in which each item has a small cut-out photograph where a bullet would be. Each category opens with its name at clamp(32px, 3.4vw, 50px) at the left margin and the number of items at 16px right-aligned on the same baseline, with 96px above and 40px below. Items then run in two columns with a 64px gutter and 36px between rows. Each item is a two-part row: a 64px photograph of the item on a plain background at the left (multiplied onto the ground with `mix-blend-mode: multiply`, or masked to the page's one shape), then 20px to its right the name in bold at 17–18px with the price right-aligned on the same line, and beneath it a two- or three-line description at 15px in the soft ink, max 38ch. A short note such as an allergen follows the description in the accent ink. No boxes. Holds 6–10 items per category.",
+   "mobile": "One column. Photographs shrink to 52px and stay at the left; name and price share the first line with the description beneath at 15px. Category names at 8.5vw with the count on the same baseline. A sticky row of category names as text links lets the reader jump.",
+   "seenIn": [
+    "opl-madie",
+    "opl-zara-webb"
+   ]
+  },
+  {
+   "id": "pricing-two-plans-two-fields",
+   "role": "pricing",
+   "name": "Two plans, two fields",
+   "shape": "split",
+   "tags": [
+    "colour-field",
+    "poster"
+   ],
+   "directions": [
+    "colour-chapters",
+    "loud-flat-poster",
+    "borrowed-category",
+    "one-motif",
+    "editorial-report",
+    "split-stage"
+   ],
+   "needs": [],
+   "blueprint": "Two plans stand side by side as two full-height colour fields that meet at a hard vertical edge with no gap: the left field spans columns 1–5, the right 6–12, both 90svh tall and bleeding to the viewport edges. Each field has its own flat colour and its assigned text colour. Inside each, on a shared grid: the plan name at about 5vw top-left with 40px padding; one sentence at 20px beneath it, no wider than 26ch, saying who the plan is for; then, anchored to the bottom-left, the price at about 10vw with the period at 18px beside it; and a rectangular button anchored bottom-right on the price's baseline. What is included is written as a short paragraph, not a tick list. The unequal widths say which plan matters more without any badge. No heading spans the two fields.",
+   "mobile": "The fields stack, each 70svh tall, the more important plan first. Name at 12vw top-left, sentence beneath, price at 24vw at the bottom-left, and the button full width along the bottom edge inside 20px padding. The hard colour edge between the two is kept.",
+   "seenIn": []
+  },
+  {
+   "id": "faq-tabbed-index-cards",
+   "role": "faq",
+   "name": "Tabbed index cards",
+   "shape": "stack",
+   "tags": [
+    "object-led",
+    "colour-field"
+   ],
+   "directions": [
+    "page-is-the-object",
+    "specimen-catalogue",
+    "borrowed-category",
+    "loud-flat-poster",
+    "one-motif"
+   ],
+   "needs": [],
+   "blueprint": "Questions are filed like cards in a drawer. A heading of two to four words at about 4vw sits in columns 3–10. Beneath it, in the same columns, five or six filled panels are stacked so that each overlaps the one above, leaving 96px of every card showing. Each card has a tab on its top edge, 200px wide and 40px tall, stepping right by 150px per card, cut with `clip-path: polygon()` so card and tab are one filled shape. The cards rotate through two or three palette colours. The tab carries the topic in one or two words at 16px; the visible strip under it shows the question at 20px medium. Choosing a card expands it to show the answer at 17px over at most 50ch and pushes the cards below it down. One card is open at a time; the first is open on load.",
+   "mobile": "Cards run full width with the same overlap, 88px of each showing. Tabs shrink to 120px wide and step right by 48px per card. The open card expands in place with its answer at 16px and 20px padding, and the heading leads at 9vw.",
+   "seenIn": []
+  },
+  {
+   "id": "cta-giant-word-is-the-button",
+   "role": "cta",
+   "name": "One word is the button",
+   "shape": "band",
+   "tags": [
+    "poster",
+    "colour-field"
+   ],
+   "directions": [
+    "loud-flat-poster",
+    "colour-chapters",
+    "borrowed-category",
+    "name-as-monument",
+    "type-only-statement",
+    "pinned-poster",
+    "one-motif"
+   ],
+   "needs": [],
+   "blueprint": "The entire band is one link. A full-bleed field in the accent colour, about 60svh tall, contains a single verb of four to eight letters set at 24–30vw in the heaviest weight, tight tracking, sized with `clamp()` so it spans the content width on one line with its baseline 24px above the bottom edge. The `<a>` wraps the whole band; on hover and focus the field and the word swap colours instantly. In the top-left corner, at 20px, one sentence says what happens next; in the top-right, an arrow drawn as a simple inline SVG, 48px, points up and right. There is no other button anywhere in the section. In a page with a motif, the band's top corners take the motif's shape (a large radius, or a chamfer cut with `clip-path`). Keep the word honest: the action itself, not a slogan.",
+   "mobile": "The band is 46svh tall. The word is set at whatever size fills the width on one line; choose a shorter verb rather than going below 22vw. Sentence top-left at 17px across two lines, arrow top-right at 32px. The whole band stays tappable.",
+   "seenIn": [
+    "aww-lacoste-ace-breaker",
+    "aww-made-with-gsap-1"
+   ]
+  },
+  {
+   "id": "footer-mark-built-from-shapes",
+   "role": "footer",
+   "name": "The mark, built large",
+   "shape": "band",
+   "tags": [
+    "colour-field",
+    "object-led"
+   ],
+   "directions": [
+    "one-motif",
+    "specimen-catalogue",
+    "colour-chapters",
+    "loud-flat-poster",
+    "dense-tiles",
+    "borrowed-category"
+   ],
+   "needs": [],
+   "blueprint": "On a flat colour field, the brand closes the page as a construction rather than as set type. Across the full content width and about 34svh tall, the wordmark is built from blocks: each letter is knocked out of its own solid rectangle in a palette colour, the rectangles differ in height (60–100% of the band) and butt together with 4px gaps, bottoms on one line. Where the project has a simple geometric mark or motif, enlarge that instead, drawn as inline SVG from flat rectangles, circles and quarter-arcs with the same 4px gaps. Below, 56px lower: four columns of plain links at 15px across columns 1–8, and two addresses or contact lines in columns 9–12. A last row carries the copyright at the left and one small filled button at the right. Space and the block construction do all the separating.",
+   "mobile": "The block wordmark spans the full width at about 22svh tall; a long name breaks into two rows of blocks. Link columns go two across at 15px, contact lines beneath at full width, then copyright and the small button on one row.",
+   "seenIn": [
+    "aww-house-of-honey-1",
+    "opl-woblo",
+    "aww-2xa-studio",
+    "opl-uglycash"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "id": "aww-sstr-friction-reduction",
+   "name": "SSTR - Friction Reduction",
+   "url": "https://sstr.tech/en/",
+   "source": "Awwwards Site of the Day",
+   "kind": "other",
+   "score": 7.7,
+   "idea": "Drilling hardware treated like precision consumer tech: a chamfered octagon taken from the tool's cross-section drives the buttons, icons and loader.",
+   "mood": [
+    "industrial",
+    "precise",
+    "dark",
+    "engineered"
+   ],
+   "archetype": "fullbleed-media-overlay",
+   "hero": "The captured first viewport is the preloader: a 2 by 2 grid with hairline dividers, top-left quadrant solid orange with the slash-prefixed name at 5.6vw in black bold grotesk; top-right dark with a plus-sign dot grid and an orange square beside a percentage; bottom quadrants hold wireframe octagon stacks under small labels. The real hero is a full-bleed grey 3D render of a steel downhole tool rising from bottom centre. A two-line uppercase headline at about 3.5vw in light grotesk sits left-anchored at mid-height, with a short paragraph and an orange chamfered-corner button below. A slim bar holds logo left, five small caps links, globe and contact right.",
+   "type": "ABC Monument Grotesk: bold for the loader mark, but headlines are regular or light uppercase with tight tracking at roughly 36 to 50px over 14px body. Uppercase labels at 10 to 11px carry a square orange bullet. Statistic numerals jump to about 6.7vw in a thin weight.",
+   "colour": "#18191b #eff0f1 #ff5a2a #2f3032 #c3c4c8 — Graphite and cool light-grey sections alternate; one safety orange marks buttons, bullets, the loader block and the highlighted chart series. Renders are desaturated steel so orange never competes.",
+   "imagery": "Desaturated 3D renders of drilling tools, full-bleed in the hero and as a long drill string bending along a well path; thin wireframe octagon line drawings as service icons; a chart drawn in dots.",
+   "layout": "Content sits inside vertical hairline rails about 35px in from each edge, with sections subdivided into two or three bordered cells. Dark and light sections alternate. Text blocks are left-aligned and narrow; a pinned well-path sequence breaks the grid with a full-bleed scene.",
+   "sections": [
+    {
+     "role": "features",
+     "description": "Light grey section inside vertical hairline rails. An uppercase two-line heading at about 2.4vw sits top-left with an orange chamfered button under it. Below, three equal columns divided by hairlines, each about 230px tall: a wireframe line drawing of stacked octagons in the upper half, then an uppercase title at 13px and three lines of small grey body. No fills, no icon circles, no shadows."
+    },
+    {
+     "role": "stats",
+     "description": "Graphite section split into two bordered cells. Left cell, vertically centred: a tiny bracketed before-and-after range in caps, a statistic at about 6.7vw in thin grotesk, a one-word label and an orange chamfered button. Right cell: a line chart drawn entirely in dots, white for the baseline and orange for the improved run, with faint axis labels and a two-item legend using short colour bars."
+    },
+    {
+     "role": "how-it-works",
+     "description": "Pinned full-viewport dark scene. A 3D drill string enters at top-left, runs down, bends through ninety degrees and continues along the bottom to the right edge, with bright tool segments spaced along it. A text block right of centre holds a small orange-bulleted label, a four-line uppercase statement at about 2vw and two lines of body. Bottom edge: a back-to-start link left, a chevron scroll cue centre, a skip link right."
+    }
+   ],
+   "steal": [
+    "Derive one shape from the product (here a chamfered octagon) and reuse it for button corners, icons and loader graphics.",
+    "Draw charts with dots rather than lines and reserve the accent colour for the one data series you want read.",
+    "Turn the preloader into a branded four-cell grid that previews the site's colour blocks and wireframe icons."
+   ],
+   "media": "A full-bleed 13s monochrome loop of a drilling tool descending over grey sand covers the whole fold with the text straight on it at the left, oversized for parallax. Below: a full-bleed WebGL chapter with the caption right of centre and a depth gauge at the edge, line-drawn icons in three equal cells, dot-plot charts beside big figures zigzagging per row, a 4:1 product strip under a giant product-code heading, and 3:2 case photographs in a right-hand column; 33 images and 3 videos, 0px radius.",
+   "motion": "On desktop the video plays from 400ms while every text line shows as a solid orange bar the size of the line, like redaction, and the type replaces the bars by 1.2s. Under Lenis the hero video parallaxes at scrub 2, heads rise as masked lines over 0.6-0.82s expo.out at a 0.04-0.06 stagger, chart dots switch on one by one (1004 rects at 0.15s), stats roll digit columns, the WebGL chapter is step-locked with skip controls, and buttons fill with a clip-path sweep over 0.375s; there are 10 reduced-motion rules."
+  },
+  {
+   "id": "opl-tara",
+   "name": "Tara",
+   "url": "https://tara.com",
+   "source": "One Page Love",
+   "kind": "finance",
+   "score": 7.2,
+   "idea": "Two pastel circles, mint for saving and pink for spending, stand for the app's two accounts and recur as icon, inline dot, section colour and card gradient.",
+   "mood": [
+    "friendly",
+    "clean",
+    "pastel",
+    "confident"
+   ],
+   "archetype": "split-text-media",
+   "hero": "Off-white field with no navigation, only a small bold wordmark top-left. The left column is vertically centred and starts about 8% in: a two-line headline in a wide heavy grotesk at roughly 6vw with tight leading, a grey one-line subhead beneath, then a pill-shaped email field about 400px wide with a black pill button nested inside its right end. The right half holds a 3D pair floating on the page colour: a mint-to-pink gradient bank card tilted about 30 degrees, overlapping a perspective-tilted phone showing a balance screen. Two small award badges are stacked on the right edge. Roughly half the viewport is empty.",
+   "type": "Herokid Wide at weight 600 with -0.04em tracking for headlines, regular-width Herokid for everything else. Sentence case in the hero, all-caps for the scroll statements. Roughly 86px headline against 14px body, with a mid size of about 24px for centred explainer lines.",
+   "colour": "#f8f8f8 #0a0a0a #c3edce #f8c7c9 #ffffff — Near-white base with black type. Mint and pink appear only as the two account colours: first as small circles, then as full-screen section fields and a soft glow behind the footer wordmark.",
+   "imagery": "3D bank card and tilted phone mock-ups carrying app screens, floating without a container on the page colour; later a straight-on phone on a flat mint field. Simple line icons inside solid pastel circles.",
+   "layout": "Twenty screens of scroll but very little per screen: one centred object or statement per viewport with large empty margins. A wordmark top-left and a tiny pill button top-right persist. Full-bleed pastel fields mark the two product chapters; a row of four white cards closes.",
+   "sections": [
+    {
+     "role": "intro",
+     "description": "A pinned, nearly empty viewport where a single mint circle holding a line icon sits upper-centre with a pink circle peeking from behind it. On scroll the pink circle slides out to sit beside the mint one, overlapping slightly, each with its own icon, and three centred lines of roughly 24px text appear beneath explaining the two accounts. Nothing else is on screen."
+    },
+    {
+     "role": "other",
+     "description": "A chapter-title screen: two words of heavy uppercase at about 5vw, centred and stacked on two lines, with a mint dot the height of the capitals sitting inline after the first word like punctuation. The dot is the same circle from the previous scene, so the colour carries its meaning straight into the full-mint section that follows."
+    },
+    {
+     "role": "showcase",
+     "description": "Full-viewport mint field. A small eyebrow and a bold product name are centred near the top. Below, a straight-on phone mock-up stands just right of centre, and a short right-aligned bold claim with two lines of small text sits to its left, level with the phone's lower third. Text and phone hug the centre line, leaving both outer thirds empty."
+    },
+    {
+     "role": "footer",
+     "description": "After four white rounded cards and a repeated centred email pill, the footer is one row of small links and then the wordmark set enormous, around 45vw wide and cropped by the bottom edge. It is white on the off-white page and becomes visible only through blurred pink and mint glows placed behind the letters."
+    }
+   ],
+   "steal": [
+    "Assign each product concept a colour and a shape early (two pastel circles), then reuse it as bullet, inline punctuation dot and full section background.",
+    "Nest the call-to-action button inside the email field's pill so the form reads as one object.",
+    "Set the footer wordmark in the page's own background colour and reveal it only with soft coloured glows behind the letters."
+   ]
+  }
+ ],
+ "scenes": []
+}

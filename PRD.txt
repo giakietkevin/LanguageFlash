@@ -1,0 +1,101 @@
+TÀI LIỆU YÊU CẦU SẢN PHẨM (PRD)
+Tên dự án (Dự kiến): LanguageFlash
+Trạng thái: Draft v1.0
+Đối tượng sử dụng chính: Người học ngoại ngữ tự do, học sinh/sinh viên luyện thi chứng chỉ
+Mô hình dịch vụ: 100% Free / Open Learning Platform
+1. Tổng quan & Mục tiêu sản phẩm (Overview & Objectives)
+1.1. Bối cảnh & Vấn đề (Problem Statement)
+- Người học ngoại ngữ hiện nay thường gặp khó khăn do tài nguyên học tập bị phân mảnh, thiếu lộ trình chuẩn hóa rõ ràng.
+- Các ứng dụng chất lượng cao thường tính phí đắt đỏ hoặc giới hạn tính năng cốt lõi (như giải thích ngữ pháp chuyên sâu, lộ trình thi chứng chỉ).
+- Các phương pháp học hiệu quả (Spaced Repetition, Input Comprehensible, Active Recall) hiếm khi được tích hợp đồng bộ trong một nền tảng miễn phí.
+1.2. Tầm nhìn & Mục tiêu (Vision & Goals)
+- Tầm nhìn: Trở thành nền tảng mở, miễn phí và chuẩn mực nhất cho người tự học ngoại ngữ tại Việt Nam và quốc tế.
+- Mục tiêu đo lường (KPIs dự kiến sau 6 tháng ra mắt):
+  - Tỷ lệ hoàn thành Placement Test hoặc chọn mốc bắt đầu: > 80%.
+  - Tỷ lệ giữ chân người dùng (Retention Day 7 / Day 30): > 35% / 18%.
+  - Tỷ lệ hoàn thành ít nhất 1 bài học/tuần của active user: > 60%.
+2. Đối tượng người dùng & Chân dung (User Personas)
+1. Người mới bắt đầu (Beginner Persona): Chưa từng học ngôn ngữ đích, cần lộ trình từng bước từ bảng chữ cái, phát âm cơ bản đến giao tiếp hàng ngày.
+2. Người chuyển đổi / Đã có nền tảng (Intermediate Persona): Cần bài kiểm tra đầu vào nhanh chóng để bỏ qua (skip) các kiến thức cơ bản và nhảy thẳng vào bài học phù hợp.
+3. Người luyện thi chứng chỉ (Exam-focused Persona): Tập trung vào mục tiêu cụ thể: TOEIC (nghe-đọc/4 kỹ năng), IELTS (Band 5.0 - 8.0+), HSK (HSK 1 - HSK 6/9), JLPT (N5 - N1), DELF/DALF (A1 - C1).
+3. Phạm vi ngôn ngữ & Lộ trình chuẩn hóa (Curriculum Scope)
+- Ngôn ngữLộ trình chứng chỉLộ trình giao tiếp / Kỹ năng khácTiếng AnhTOEIC (Format mới: Listening & Reading, Speaking & Writing)
+
+- IELTS (Lộ trình Foundation, 5.5, 6.5, 7.5+)
+- Giao tiếp thường nhật (A1 - C1 theo CEFR)
+
+- Tiếng Anh công sở / Phỏng vấn
+- Tiếng TrungHSK 1 đến HSK 6 (tích hợp chuẩn từ vựng mới HSK 3.0)
+
+- HSKK (Khẩu ngữ sơ - trung - cao cấp)
+- Phát âm Pinyin chuẩn
+
+- Bộ thủ & cấu trúc chữ Hán giản thể/phồn thể
+- Tiếng NhậtJLPT N5, N4, N3, N2, N1
+- Bảng chữ cái (Hiragana, Katakana)
+
+- Kanji theo cấp độ + Ngữ pháp thực dụng
+- Tiếng PhápKhung CEFR / DELF (A1, A2, B1, B2, C1)
+- Ngữ âm chuẩn tiếng Pháp
+
+- Chia động từ & ngữ pháp tự luận
+4. Kiến trúc tính năng chi tiết (Functional Requirements)
+4.1. Hệ thống Đánh giá Đầu vào (Placement Test Engine)
+- Linh hoạt lựa chọn:
+  - Người dùng có thể chọn: "Làm bài test phân loại" hoặc "Bỏ qua (Skip) / Tự chọn trình độ".
+  - Có thể làm lại bài test bất kỳ lúc nào từ màn hình cài đặt lộ trình.
+- Cơ chế Test thích ứng (Adaptive / Multi-level):
+  - Chia làm 3 - 4 chặng câu hỏi (Từ cơ bản $\rightarrow$ Trung cấp $\rightarrow$ Nâng cao). Trả lời sai liên tiếp sẽ dừng test sớm để tránh áp lực.
+  - Đánh giá 3 trụ cột: Từ vựng, Ngữ pháp, Nghe/Đọc hiểu.
+- Gợi ý & Xếp lớp tự động:
+  - Xuất báo cáo điểm mạnh/điểm yếu sau khi test.
+  - Tự động mở khóa (unlock) và đề xuất mốc bắt đầu chính xác trên cây lộ trình (Skill Tree).
+4.2. Trải nghiệm Học tập Đa phương pháp (Learning Methods & Modules)
+1. Flashcard thông minh (SRS - Spaced Repetition System):
+  - Thuật toán lặp lại ngắt quãng (dựa trên SM-2 hoặc FSRS).
+  - Hai mặt thẻ: Từ vựng/cụm từ, phiên âm IPA/Pinyin/Furigana, nghĩa, audio phát âm tự nhiên, câu ví dụ thực tế kèm ngữ cảnh/ảnh minh họa.
+  - Chế độ tự đánh giá (Dễ, Tốt, Khó, Quên).
+2. Mô-đun Ngữ pháp Tự luận & Phân tích cấu trúc:
+  - Không chỉ trắc nghiệm: Học viên gõ câu, điền từ ngữ cảnh, dịch câu xuôi/ngược.
+  - Giải thích tường tận lý do đúng/sai, kèm lưu ý các bẫy ngữ pháp thường gặp.
+  - Bảng phân tích chi tiết thành phần câu (Chủ ngữ - Vị ngữ - Bổ ngữ - Mệnh đề liên quan).
+3. Phương pháp Comprehensible Input & Shadowing:
+  - Mỗi bài học đi kèm đoạn hội thoại ngắn có audio bản ngữ chuẩn.
+  - Cho phép chọn tốc độ (0.75x, 1.0x, 1.25x), bật/tắt song ngữ, chế độ nghe lặp từng câu để luyện nói nhại lại (Shadowing).
+4. Ví dụ sinh động & Ngữ cảnh thực tế:
+  - Trích dẫn câu thoại thực tế từ phim ảnh, tin tức, văn hóa bản địa.
+  - Hình ảnh minh họa trực quan (mnemonic) ghi nhớ Kanji, chữ Hán hoặc cụm động từ tiếng Anh/Pháp.
+4.3. Cấu trúc Lộ trình & Gamification (Syllabus & Progression)
+- Roadmap/Skill Tree: Trực quan hóa tiến trình theo từng chặng (Node/Unit). Mỗi Node gồm: Lý thuyết $\rightarrow$ Flashcard $\rightarrow$ Luyện tập ngữ pháp $\rightarrow$ Mini-Quiz kiểm tra chặng.
+- Gamification nhẹ nhàng: Streak ngày học, thanh tiến độ % hoàn thành khóa, chứng nhận hoàn thành lộ trình (Certificate of Completion điện tử).
+4.4. Hệ thống Quản trị Nội dung (CMS cho Admin/Biên tập viên)
+- Dễ dàng tạo và gán nhãn câu hỏi (ngôn ngữ, cấp độ, kỹ năng, dạng bài).
+- Quản lý bộ thẻ Flashcard (hỗ trợ import/export file CSV/Excel).
+- Tích hợp kho media (Audio file, ảnh minh họa chất lượng cao).
+5. Yêu cầu Phi chức năng (Non-Functional Requirements)
+- Hiệu năng & Khả năng tải (Performance & Scalability):
+  - Thời gian tải trang bài học < 1.5 giây.
+  - Hỗ trợ Progressive Web App (PWA) hoặc Offline Cache để học viên ôn flashcard khi mất kết nối mạng.
+- Giao diện & Trải nghiệm (UI/UX):
+  - Tối ưu hiển thị cho đa màn hình (Mobile Responsive là ưu tiên hàng đầu).
+  - Hỗ trợ chuẩn gõ/hiển thị ký tự đặc biệt (Katakana/Hiragana, Hán tự, Pinyin, ký tự có dấu tiếng Pháp).
+  - Hỗ trợ Dark Mode / Light Mode chống mỏi mắt.
+- Bảo mật & Dữ liệu:
+  - Đăng nhập tiện lợi bằng Google One-Tap, Email/Password.
+  - Đồng bộ tiến độ học trên Cloud theo thời gian thực (Real-time sync).
+6. Đề xuất Kiến trúc Kỹ thuật (Technical Architecture)
+- Frontend: Next.js (React) + TailwindCSS (tối ưu SEO cho các bài học ngữ pháp, tốc độ render nhanh, hỗ trợ đa ngôn ngữ i18n).
+- Backend: Node.js (NestJS) hoặc ASP.NET Core Web API (xử lý logic thuật toán SRS, tính điểm test, quản lý tiến độ).
+- Database: PostgreSQL (lưu cấu trúc người dùng, bài học, quan hệ tiến độ) kết hợp Redis (cache bài test, phiên học, flashcard queue).
+- Storage & Media: Cloudflare R2 / AWS S3 (chứa audio phát âm, hình ảnh minh họa bài học với chi phí tối ưu).
+7. Lộ trình Triển khai Dự án (Release Roadmap)
+- Giai đoạn 1 (MVP - 2 tháng):
+  - Thiết kế giao diện UI/UX và Database Schema.
+  - Hoàn thiện mô-đun Flashcard SRS và Placement Test cơ bản.
+  - Phát hành thử nghiệm 1 ngôn ngữ cốt lõi (Tiếng Anh: Ngữ pháp nền tảng + TOEIC 500+).
+- Giai đoạn 2 (Mở rộng - 2 tháng tiếp theo):
+  - Tích hợp Tiếng Trung (HSK 1 - 4) và Tiếng Nhật (N5 - N4).
+  - Bổ sung tính năng ngữ pháp tự luận nâng cao và Audio Shadowing.
+- Giai đoạn 3 (Hoàn thiện & Chứng chỉ nâng cao - 2 tháng tiếp theo):
+  - Hoàn thành Tiếng Pháp (A1 - B2), HSK 5 - 6, JLPT N3 - N1, IELTS 7.0+.
+  - Thêm tính năng xuất chứng chỉ hoàn thành khóa học và bảng xếp hạng học tập cộng đồng.

@@ -1,0 +1,768 @@
+▲ Next.js 16.4.3 (Turbopack)
+- Local:         http://localhost:3005
+- Network:       http://192.168.2.4:3005
+✓ Ready in 355ms
+✓ Running next.config.ts took 39ms
+
+  We detected TypeScript in your project and reconfigured your tsconfig.json file for you.
+  The following suggested values were added to your tsconfig.json. These values can be changed to fit your project's needs:
+
+  	- include was updated to add '.next/dev/types/**/*.ts'
+
+
+✓ Generated AGENTS.md for AI agents. Set `agentRules: false` in next.config to disable.
+⨯ Error: Attempted to call stagger() from the server but stagger is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.
+    at Landing (src\app\[locale]\page.tsx:27:42)
+  25 |               {t.landing.path.title}
+  26 |             </h2>
+> 27 |             <p data-reveal style={stagger(1)}>
+     |                                          ^
+  28 |               {t.landing.path.body}
+  29 |             </p>
+  30 |           </div> {
+  digest: '3262904847'
+}
+ GET /vi 500 in 728ms (next.js: 249ms, generate-params: 333ms, application-code: 147ms)
+✓ Compiled in 57ms
+ GET /vi 200 in 179ms (next.js: 5ms, generate-params: 5ms, application-code: 169ms)
+ GET /en 200 in 66ms (next.js: 1.6ms, generate-params: 0.0ms, application-code: 65ms)
+✓ Compiled in 18ms
+ GET /vi 200 in 122ms (next.js: 3ms, generate-params: 7ms, application-code: 111ms)
+ GET /manifest.webmanifest 404 in 49ms (next.js: 2ms, generate-params: 0.0ms, application-code: 47ms)
+ GET /manifest.webmanifest 404 in 92ms (next.js: 2ms, generate-params: 7ms, application-code: 83ms)
+ GET /favicon.ico 404 in 39ms (next.js: 1.6ms, generate-params: 0.0ms, application-code: 37ms)
+ GET /vi 200 in 98ms (next.js: 2ms, generate-params: 7ms, application-code: 89ms)
+ GET /manifest.webmanifest 404 in 61ms (next.js: 2ms, generate-params: 0.1ms, application-code: 58ms)
+ GET /manifest.webmanifest 404 in 61ms (next.js: 2ms, generate-params: 0.0ms, application-code: 59ms)
+ GET /manifest.webmanifest 404 in 46ms (next.js: 2ms, generate-params: 0.0ms, application-code: 43ms)
+ GET /vi 200 in 91ms (next.js: 2ms, generate-params: 6ms, application-code: 83ms)
+ GET /manifest.webmanifest 404 in 45ms (next.js: 1.4ms, generate-params: 0.0ms, application-code: 44ms)
+ GET /manifest.webmanifest 404 in 50ms (next.js: 1.5ms, generate-params: 0.0ms, application-code: 49ms)
+ GET /manifest.webmanifest 404 in 44ms (next.js: 1.6ms, generate-params: 0.0ms, application-code: 42ms)
+ GET /vi 200 in 86ms (next.js: 1.5ms, generate-params: 5ms, application-code: 79ms)
+ GET /manifest.webmanifest 404 in 42ms (next.js: 1.7ms, generate-params: 0.0ms, application-code: 40ms)
+ GET /manifest.webmanifest 404 in 40ms (next.js: 1.5ms, generate-params: 0.0ms, application-code: 39ms)
+ GET /manifest.webmanifest 404 in 41ms (next.js: 1.8ms, generate-params: 5ms, application-code: 35ms)
+⚠ Found a change in next.config.ts. Restarting the server to apply the changes...
+▲ Next.js 16.4.3 (Turbopack)
+- Local:         http://localhost:3005
+- Network:       http://192.168.2.4:3005
+✓ Ready in 295ms
+✓ Running next.config.ts took 31ms
+
+ GET /vi 200 in 667ms (next.js: 135ms, generate-params: 334ms, application-code: 198ms)
+ GET /vi 200 in 103ms (next.js: 2ms, generate-params: 5ms, application-code: 96ms)
+ GET /manifest.webmanifest 404 in 75ms (next.js: 2ms, generate-params: 0.0ms, application-code: 73ms)
+ GET /manifest.webmanifest 404 in 63ms (next.js: 1.9ms, generate-params: 6ms, application-code: 55ms)
+ GET /favicon.ico 404 in 54ms (next.js: 1.8ms, generate-params: 0.0ms, application-code: 52ms)
+ GET /manifest.webmanifest 404 in 41ms (next.js: 1.5ms, generate-params: 0.0ms, application-code: 39ms)
+ GET /vi 200 in 125ms (next.js: 2ms, generate-params: 6ms, application-code: 117ms)
+ GET /manifest.webmanifest 404 in 44ms (next.js: 1.4ms, generate-params: 0.0ms, application-code: 43ms)
+ GET /manifest.webmanifest 404 in 46ms (next.js: 2ms, generate-params: 0.0ms, application-code: 44ms)
+ GET /manifest.webmanifest 404 in 45ms (next.js: 1.7ms, generate-params: 5ms, application-code: 38ms)
+ GET /vi 200 in 79ms (next.js: 1.8ms, generate-params: 5ms, application-code: 72ms)
+ GET /manifest.webmanifest 404 in 46ms (next.js: 2.0ms, generate-params: 0.0ms, application-code: 44ms)
+ GET /manifest.webmanifest 404 in 39ms (next.js: 1.5ms, generate-params: 0.0ms, application-code: 38ms)
+ GET /manifest.webmanifest 404 in 41ms (next.js: 1.2ms, generate-params: 0.0ms, application-code: 40ms)
+ GET /vi 200 in 80ms (next.js: 1.5ms, generate-params: 5ms, application-code: 74ms)
+ GET /manifest.webmanifest 404 in 40ms (next.js: 1.5ms, generate-params: 0.0ms, application-code: 39ms)
+ GET /manifest.webmanifest 404 in 40ms (next.js: 1.3ms, generate-params: 0.0ms, application-code: 39ms)
+ GET /manifest.webmanifest 404 in 37ms (next.js: 1.4ms, generate-params: 0.0ms, application-code: 35ms)
+✓ Compiled in 41ms
+ GET /vi 200 in 126ms (next.js: 3ms, generate-params: 4ms, application-code: 119ms)
+ GET /vi 200 in 99ms (next.js: 1.9ms, generate-params: 7ms, application-code: 91ms)
+ GET /manifest.webmanifest 404 in 46ms (next.js: 1.8ms, generate-params: 0.0ms, application-code: 44ms)
+ GET /manifest.webmanifest 404 in 52ms (next.js: 1.6ms, generate-params: 7ms, application-code: 43ms)
+ GET /favicon.ico 404 in 51ms (next.js: 1.9ms, generate-params: 0.0ms, application-code: 49ms)
+ GET /manifest.webmanifest 404 in 44ms (next.js: 1.4ms, generate-params: 0.0ms, application-code: 42ms)
+ GET /vi 200 in 108ms (next.js: 1.7ms, generate-params: 6ms, application-code: 101ms)
+ GET /manifest.webmanifest 404 in 61ms (next.js: 1.8ms, generate-params: 0.0ms, application-code: 59ms)
+ GET /manifest.webmanifest 404 in 43ms (next.js: 2ms, generate-params: 0.0ms, application-code: 41ms)
+ GET /manifest.webmanifest 404 in 41ms (next.js: 1.7ms, generate-params: 4ms, application-code: 36ms)
+ GET /vi 200 in 70ms (next.js: 1.6ms, generate-params: 6ms, application-code: 63ms)
+ GET /manifest.webmanifest 404 in 40ms (next.js: 1.8ms, generate-params: 0.0ms, application-code: 38ms)
+ GET /manifest.webmanifest 404 in 39ms (next.js: 1.3ms, generate-params: 0.0ms, application-code: 38ms)
+ GET /manifest.webmanifest 404 in 36ms (next.js: 1.2ms, generate-params: 0.0ms, application-code: 34ms)
+ GET /vi 200 in 73ms (next.js: 1.5ms, generate-params: 5ms, application-code: 67ms)
+ GET /manifest.webmanifest 404 in 38ms (next.js: 1.3ms, generate-params: 0.0ms, application-code: 37ms)
+ GET /manifest.webmanifest 404 in 51ms (next.js: 2ms, generate-params: 0.0ms, application-code: 49ms)
+ GET /manifest.webmanifest 404 in 36ms (next.js: 1.2ms, generate-params: 0.0ms, application-code: 35ms)
+✓ Compiled in 27ms
+ GET /vi 200 in 66ms (next.js: 3ms, generate-params: 4ms, application-code: 59ms)
+ GET /vi 200 in 97ms (next.js: 1.3ms, generate-params: 5ms, application-code: 91ms)
+ GET /manifest.webmanifest 404 in 42ms (next.js: 1.8ms, generate-params: 0.0ms, application-code: 40ms)
+ GET /manifest.webmanifest 404 in 49ms (next.js: 1.1ms, generate-params: 5ms, application-code: 43ms)
+ GET /favicon.ico 404 in 50ms (next.js: 1.5ms, generate-params: 0.0ms, application-code: 48ms)
+ GET /manifest.webmanifest 404 in 34ms (next.js: 1.1ms, generate-params: 0.0ms, application-code: 33ms)
+ GET /vi 200 in 139ms (next.js: 1.8ms, generate-params: 6ms, application-code: 131ms)
+ GET /manifest.webmanifest 404 in 46ms (next.js: 1.4ms, generate-params: 0.0ms, application-code: 45ms)
+ GET /manifest.webmanifest 404 in 39ms (next.js: 1.6ms, generate-params: 0.0ms, application-code: 38ms)
+ GET /manifest.webmanifest 404 in 48ms (next.js: 1.3ms, generate-params: 5ms, application-code: 42ms)
+ GET /vi 200 in 74ms (next.js: 2ms, generate-params: 5ms, application-code: 68ms)
+ GET /manifest.webmanifest 404 in 36ms (next.js: 1.4ms, generate-params: 0.0ms, application-code: 34ms)
+ GET /manifest.webmanifest 404 in 48ms (next.js: 1.6ms, generate-params: 0.0ms, application-code: 46ms)
+ GET /manifest.webmanifest 404 in 41ms (next.js: 1.9ms, generate-params: 0.0ms, application-code: 39ms)
+ GET /vi 200 in 74ms (next.js: 1.8ms, generate-params: 5ms, application-code: 67ms)
+ GET /manifest.webmanifest 404 in 41ms (next.js: 1.3ms, generate-params: 0.0ms, application-code: 40ms)
+ GET /manifest.webmanifest 404 in 45ms (next.js: 1.3ms, generate-params: 0.0ms, application-code: 43ms)
+ GET /manifest.webmanifest 404 in 44ms (next.js: 1.2ms, generate-params: 5ms, application-code: 37ms)
+✓ Compiled in 45ms
+ GET /vi/learn 200 in 440ms (next.js: 9ms, generate-params: 320ms, application-code: 111ms)
+ GET /vi/learn/review 200 in 353ms (next.js: 7ms, generate-params: 313ms, application-code: 33ms)
+ GET /vi/learn/path 200 in 368ms (next.js: 7ms, generate-params: 318ms, application-code: 43ms)
+ GET /vi/learn/lesson 200 in 353ms (next.js: 7ms, generate-params: 309ms, application-code: 36ms)
+ GET /vi/learn/certificate 200 in 356ms (next.js: 7ms, generate-params: 314ms, application-code: 35ms)
+ GET /vi/learn/settings 200 in 358ms (next.js: 7ms, generate-params: 314ms, application-code: 36ms)
+ GET /vi/onboarding 200 in 352ms (next.js: 7ms, generate-params: 315ms, application-code: 30ms)
+ GET /vi/placement 200 in 352ms (next.js: 7ms, generate-params: 317ms, application-code: 28ms)
+ GET /vi/login 200 in 345ms (next.js: 7ms, generate-params: 312ms, application-code: 27ms)
+ GET /vi/admin 200 in 369ms (next.js: 8ms, generate-params: 317ms, application-code: 44ms)
+ GET /vi/admin/decks 200 in 368ms (next.js: 8ms, generate-params: 319ms, application-code: 41ms)
+ GET /vi/admin/media 200 in 347ms (next.js: 8ms, generate-params: 304ms, application-code: 34ms)
+ GET /en/learn 200 in 45ms (next.js: 1.4ms, generate-params: 4ms, application-code: 39ms)
+ GET /vi/learn 200 in 56ms (next.js: 1.9ms, generate-params: 6ms, application-code: 48ms)
+ GET /manifest.webmanifest 404 in 48ms (next.js: 1.5ms, generate-params: 6ms, application-code: 41ms)
+ GET /manifest.webmanifest 404 in 57ms (next.js: 2ms, generate-params: 0.0ms, application-code: 55ms)
+ GET /favicon.ico 404 in 68ms (next.js: 1.8ms, generate-params: 0.0ms, application-code: 66ms)
+[browser] Encountered a script tag while rendering React component. Scripts inside React components are never executed when rendering on the client. Consider using template tag instead (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template). 
+ GET /manifest.webmanifest 404 in 111ms (next.js: 1.8ms, generate-params: 0.0ms, application-code: 109ms)
+[browser] Uncaught Error: Hydration failed because the server rendered text didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="learn/" loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/vi/learn" tree={[...]} params={{locale:"vi"}} renderTree={{...}} ...>
+                <SegmentViewNode type="page" pagePath="[locale]/l...">
+                  <SegmentTrieNode>
+                  <LearnHome>
+                    <Home>
+                      <div className="column">
+                        <div>
+                        <div className="grid" aria-busy={true}>
+                          <div>
+                          <div>
+                          <div>
+                          <div>
+                          <section>
+                          <section className="panel s3" aria-labelledby="week-title">
+                            <div>
+                            <p>
+                            <div className="week" style={{marginTop:16}}>
+                              <div className="day" data-on={true} data-today={undefined} title="2026-10-22...">
+                                <i>
+                                <span>
++                                 Thứ 5
+-                                 Th 5
+                              ...
+                            ...
+                          ...
+                ...
+              ...
+
+    at <unknown> (https://react.dev/link/hydration-mismatch)
+    at span (<anonymous>)
+    at <unknown> (src/components/app/Home.tsx:123:17)
+    at Array.map (<anonymous>)
+    at Home (src/components/app/Home.tsx:114:19)
+    at LearnHome (src\app\[locale]\learn\page.tsx:4:10)
+  121 |               >
+  122 |                 <i />
+> 123 |                 <span>{d.label}</span>
+      |                 ^
+  124 |               </div>
+  125 |             ))}
+  126 |           </div>
+ GET /vi/learn 200 in 50ms (next.js: 1.6ms, generate-params: 5ms, application-code: 43ms)
+ GET /manifest.webmanifest 404 in 75ms (next.js: 2ms, generate-params: 7ms, application-code: 66ms)
+ GET /manifest.webmanifest 404 in 42ms (next.js: 1.2ms, generate-params: 0.0ms, application-code: 41ms)
+[browser] Encountered a script tag while rendering React component. Scripts inside React components are never executed when rendering on the client. Consider using template tag instead (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template). 
+[browser] Uncaught Error: Hydration failed because the server rendered text didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="learn/" loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/vi/learn" tree={[...]} params={{locale:"vi"}} renderTree={{...}} ...>
+                <SegmentViewNode type="page" pagePath="[locale]/l...">
+                  <SegmentTrieNode>
+                  <LearnHome>
+                    <Home>
+                      <div className="column">
+                        <div>
+                        <div className="grid" aria-busy={true}>
+                          <div>
+                          <div>
+                          <div>
+                          <div>
+                          <section>
+                          <section className="panel s3" aria-labelledby="week-title">
+                            <div>
+                            <p>
+                            <div className="week" style={{marginTop:16}}>
+                              <div className="day" data-on={true} data-today={undefined} title="2026-10-22...">
+                                <i>
+                                <span>
++                                 Thứ 5
+-                                 Th 5
+                              ...
+                            ...
+                          ...
+                ...
+              ...
+
+    at <unknown> (https://react.dev/link/hydration-mismatch)
+    at span (<anonymous>)
+    at <unknown> (src/components/app/Home.tsx:123:17)
+    at Array.map (<anonymous>)
+    at Home (src/components/app/Home.tsx:114:19)
+    at LearnHome (src\app\[locale]\learn\page.tsx:4:10)
+  121 |               >
+  122 |                 <i />
+> 123 |                 <span>{d.label}</span>
+      |                 ^
+  124 |               </div>
+  125 |             ))}
+  126 |           </div>
+ GET /manifest.webmanifest 404 in 47ms (next.js: 1.7ms, generate-params: 0.0ms, application-code: 46ms)
+ GET /vi/learn 200 in 49ms (next.js: 1.6ms, generate-params: 5ms, application-code: 43ms)
+ GET /manifest.webmanifest 404 in 78ms (next.js: 1.4ms, generate-params: 5ms, application-code: 71ms)
+ GET /manifest.webmanifest 404 in 41ms (next.js: 1.6ms, generate-params: 0.0ms, application-code: 39ms)
+[browser] Encountered a script tag while rendering React component. Scripts inside React components are never executed when rendering on the client. Consider using template tag instead (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template). 
+[browser] Uncaught Error: Hydration failed because the server rendered text didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="learn/" loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/vi/learn" tree={[...]} params={{locale:"vi"}} renderTree={{...}} ...>
+                <SegmentViewNode type="page" pagePath="[locale]/l...">
+                  <SegmentTrieNode>
+                  <LearnHome>
+                    <Home>
+                      <div className="column">
+                        <div>
+                        <div className="grid" aria-busy={true}>
+                          <div>
+                          <div>
+                          <div>
+                          <div>
+                          <section>
+                          <section className="panel s3" aria-labelledby="week-title">
+                            <div>
+                            <p>
+                            <div className="week" style={{marginTop:16}}>
+                              <div className="day" data-on={true} data-today={undefined} title="2026-10-22...">
+                                <i>
+                                <span>
++                                 Thứ 5
+-                                 Th 5
+                              ...
+                            ...
+                          ...
+                ...
+              ...
+
+    at <unknown> (https://react.dev/link/hydration-mismatch)
+    at span (<anonymous>)
+    at <unknown> (src/components/app/Home.tsx:123:17)
+    at Array.map (<anonymous>)
+    at Home (src/components/app/Home.tsx:114:19)
+    at LearnHome (src\app\[locale]\learn\page.tsx:4:10)
+  121 |               >
+  122 |                 <i />
+> 123 |                 <span>{d.label}</span>
+      |                 ^
+  124 |               </div>
+  125 |             ))}
+  126 |           </div>
+ GET /manifest.webmanifest 404 in 50ms (next.js: 3ms, generate-params: 0.0ms, application-code: 48ms)
+ GET /vi/learn 200 in 80ms (next.js: 3ms, generate-params: 8ms, application-code: 69ms)
+ GET /manifest.webmanifest 404 in 53ms (next.js: 1.7ms, generate-params: 5ms, application-code: 46ms)
+ GET /manifest.webmanifest 404 in 51ms (next.js: 1.7ms, generate-params: 0.0ms, application-code: 49ms)
+ GET /favicon.ico 404 in 52ms (next.js: 1.6ms, generate-params: 0.0ms, application-code: 51ms)
+[browser] Encountered a script tag while rendering React component. Scripts inside React components are never executed when rendering on the client. Consider using template tag instead (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template). 
+[browser] Uncaught Error: Hydration failed because the server rendered text didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="learn/" loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/vi/learn" tree={[...]} params={{locale:"vi"}} renderTree={{...}} ...>
+                <SegmentViewNode type="page" pagePath="[locale]/l...">
+                  <SegmentTrieNode>
+                  <LearnHome>
+                    <Home>
+                      <div className="column">
+                        <div>
+                        <div className="grid" aria-busy={true}>
+                          <div>
+                          <div>
+                          <div>
+                          <div>
+                          <section>
+                          <section className="panel pane..." aria-labelledby="week-title">
+                            <div>
+                            <p>
+                            <div className="week" style={{marginTop:16}}>
+                              <div className="day" data-on={true} data-today={undefined} title="2026-10-22...">
+                                <i>
+                                <span>
++                                 Thứ 5
+-                                 Th 5
+                              ...
+                            ...
+                          ...
+                ...
+              ...
+
+    at <unknown> (https://react.dev/link/hydration-mismatch)
+    at span (<anonymous>)
+    at <unknown> (src/components/app/Home.tsx:123:17)
+    at Array.map (<anonymous>)
+    at Home (src/components/app/Home.tsx:114:19)
+    at LearnHome (src\app\[locale]\learn\page.tsx:4:10)
+  121 |               >
+  122 |                 <i />
+> 123 |                 <span>{d.label}</span>
+      |                 ^
+  124 |               </div>
+  125 |             ))}
+  126 |           </div>
+ GET /manifest.webmanifest 404 in 61ms (next.js: 1.6ms, generate-params: 0.0ms, application-code: 59ms)
+ GET /vi/learn 200 in 72ms (next.js: 1.8ms, generate-params: 6ms, application-code: 64ms)
+ GET /manifest.webmanifest 404 in 70ms (next.js: 1.7ms, generate-params: 5ms, application-code: 64ms)
+ GET /manifest.webmanifest 404 in 46ms (next.js: 1.3ms, generate-params: 0.0ms, application-code: 44ms)
+[browser] Encountered a script tag while rendering React component. Scripts inside React components are never executed when rendering on the client. Consider using template tag instead (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template). 
+[browser] Uncaught Error: Hydration failed because the server rendered text didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="learn/" loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/vi/learn" tree={[...]} params={{locale:"vi"}} renderTree={{...}} ...>
+                <SegmentViewNode type="page" pagePath="[locale]/l...">
+                  <SegmentTrieNode>
+                  <LearnHome>
+                    <Home>
+                      <div className="column">
+                        <div>
+                        <div className="grid" aria-busy={true}>
+                          <div>
+                          <div>
+                          <div>
+                          <div>
+                          <section>
+                          <section className="panel pane..." aria-labelledby="week-title">
+                            <div>
+                            <p>
+                            <div className="week" style={{marginTop:16}}>
+                              <div className="day" data-on={true} data-today={undefined} title="2026-10-22...">
+                                <i>
+                                <span>
++                                 Thứ 5
+-                                 Th 5
+                              ...
+                            ...
+                          ...
+                ...
+              ...
+
+    at <unknown> (https://react.dev/link/hydration-mismatch)
+    at span (<anonymous>)
+    at <unknown> (src/components/app/Home.tsx:123:17)
+    at Array.map (<anonymous>)
+    at Home (src/components/app/Home.tsx:114:19)
+    at LearnHome (src\app\[locale]\learn\page.tsx:4:10)
+  121 |               >
+  122 |                 <i />
+> 123 |                 <span>{d.label}</span>
+      |                 ^
+  124 |               </div>
+  125 |             ))}
+  126 |           </div>
+ GET /manifest.webmanifest 404 in 42ms (next.js: 2ms, generate-params: 0.0ms, application-code: 40ms)
+ GET /vi/learn 200 in 53ms (next.js: 1.7ms, generate-params: 5ms, application-code: 46ms)
+ GET /manifest.webmanifest 404 in 55ms (next.js: 1.3ms, generate-params: 6ms, application-code: 48ms)
+ GET /manifest.webmanifest 404 in 43ms (next.js: 1.8ms, generate-params: 0.0ms, application-code: 41ms)
+[browser] Encountered a script tag while rendering React component. Scripts inside React components are never executed when rendering on the client. Consider using template tag instead (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template). 
+[browser] Uncaught Error: Hydration failed because the server rendered text didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="learn/" loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/vi/learn" tree={[...]} params={{locale:"vi"}} renderTree={{...}} ...>
+                <SegmentViewNode type="page" pagePath="[locale]/l...">
+                  <SegmentTrieNode>
+                  <LearnHome>
+                    <Home>
+                      <div className="column">
+                        <div>
+                        <div className="grid" aria-busy={true}>
+                          <div>
+                          <div>
+                          <div>
+                          <div>
+                          <section>
+                          <section className="panel pane..." aria-labelledby="week-title">
+                            <div>
+                            <p>
+                            <div className="week" style={{marginTop:16}}>
+                              <div className="day" data-on={true} data-today={undefined} title="2026-10-22...">
+                                <i>
+                                <span>
++                                 Thứ 5
+-                                 Th 5
+                              ...
+                            ...
+                          ...
+                ...
+              ...
+
+    at <unknown> (https://react.dev/link/hydration-mismatch)
+    at span (<anonymous>)
+    at <unknown> (src/components/app/Home.tsx:123:17)
+    at Array.map (<anonymous>)
+    at Home (src/components/app/Home.tsx:114:19)
+    at LearnHome (src\app\[locale]\learn\page.tsx:4:10)
+  121 |               >
+  122 |                 <i />
+> 123 |                 <span>{d.label}</span>
+      |                 ^
+  124 |               </div>
+  125 |             ))}
+  126 |           </div>
+ GET /manifest.webmanifest 404 in 41ms (next.js: 1.8ms, generate-params: 0.0ms, application-code: 39ms)
+ GET /vi/learn 200 in 61ms (next.js: 3ms, generate-params: 6ms, application-code: 53ms)
+ GET /manifest.webmanifest 404 in 54ms (next.js: 1.9ms, generate-params: 6ms, application-code: 46ms)
+ GET /manifest.webmanifest 404 in 53ms (next.js: 1.3ms, generate-params: 0.0ms, application-code: 51ms)
+ GET /favicon.ico 404 in 66ms (next.js: 2ms, generate-params: 0.0ms, application-code: 64ms)
+ GET /manifest.webmanifest 404 in 60ms (next.js: 2ms, generate-params: 0.0ms, application-code: 57ms)
+ GET /vi/learn 200 in 46ms (next.js: 1.4ms, generate-params: 5ms, application-code: 40ms)
+ GET /manifest.webmanifest 404 in 67ms (next.js: 3ms, generate-params: 7ms, application-code: 57ms)
+ GET /manifest.webmanifest 404 in 41ms (next.js: 1.5ms, generate-params: 0.0ms, application-code: 40ms)
+ GET /manifest.webmanifest 404 in 43ms (next.js: 2ms, generate-params: 0.1ms, application-code: 41ms)
+ GET /vi/learn 200 in 49ms (next.js: 1.3ms, generate-params: 6ms, application-code: 43ms)
+ GET /manifest.webmanifest 404 in 48ms (next.js: 1.3ms, generate-params: 5ms, application-code: 41ms)
+ GET /manifest.webmanifest 404 in 43ms (next.js: 1.6ms, generate-params: 0.0ms, application-code: 41ms)
+ GET /manifest.webmanifest 404 in 38ms (next.js: 1.2ms, generate-params: 0.0ms, application-code: 37ms)
+ GET /vi/learn/review 200 in 68ms (next.js: 3ms, generate-params: 7ms, application-code: 57ms)
+ GET /manifest.webmanifest 404 in 54ms (next.js: 1.6ms, generate-params: 5ms, application-code: 47ms)
+ GET /manifest.webmanifest 404 in 55ms (next.js: 1.7ms, generate-params: 0.0ms, application-code: 53ms)
+ GET /favicon.ico 404 in 57ms (next.js: 2ms, generate-params: 0.0ms, application-code: 55ms)
+ GET /manifest.webmanifest 404 in 42ms (next.js: 1.4ms, generate-params: 0.0ms, application-code: 41ms)
+ GET /vi/learn/review 200 in 50ms (next.js: 1.4ms, generate-params: 5ms, application-code: 43ms)
+ GET /manifest.webmanifest 404 in 71ms (next.js: 2ms, generate-params: 7ms, application-code: 62ms)
+ GET /manifest.webmanifest 404 in 51ms (next.js: 1.2ms, generate-params: 0.0ms, application-code: 49ms)
+ GET /manifest.webmanifest 404 in 39ms (next.js: 1.8ms, generate-params: 0.0ms, application-code: 38ms)
+ GET /vi/learn/review 200 in 41ms (next.js: 1.4ms, generate-params: 5ms, application-code: 35ms)
+ GET /manifest.webmanifest 404 in 56ms (next.js: 1.7ms, generate-params: 6ms, application-code: 49ms)
+ GET /manifest.webmanifest 404 in 40ms (next.js: 1.3ms, generate-params: 0.0ms, application-code: 38ms)
+ GET /manifest.webmanifest 404 in 43ms (next.js: 1.3ms, generate-params: 0.0ms, application-code: 41ms)
+ GET /vi/learn/path 200 in 80ms (next.js: 3ms, generate-params: 7ms, application-code: 71ms)
+ GET /manifest.webmanifest 404 in 57ms (next.js: 1.8ms, generate-params: 5ms, application-code: 51ms)
+ GET /manifest.webmanifest 404 in 47ms (next.js: 1.5ms, generate-params: 0.0ms, application-code: 45ms)
+ GET /favicon.ico 404 in 65ms (next.js: 2ms, generate-params: 0.0ms, application-code: 63ms)
+ GET /manifest.webmanifest 404 in 38ms (next.js: 1.3ms, generate-params: 0.0ms, application-code: 36ms)
+ GET /vi/learn/path 200 in 53ms (next.js: 1.5ms, generate-params: 5ms, application-code: 46ms)
+ GET /manifest.webmanifest 404 in 68ms (next.js: 1.6ms, generate-params: 6ms, application-code: 60ms)
+ GET /manifest.webmanifest 404 in 41ms (next.js: 1.2ms, generate-params: 0.1ms, application-code: 40ms)
+ GET /manifest.webmanifest 404 in 33ms (next.js: 1.3ms, generate-params: 0.0ms, application-code: 32ms)
+ GET /vi/learn/path 200 in 53ms (next.js: 1.6ms, generate-params: 5ms, application-code: 47ms)
+ GET /manifest.webmanifest 404 in 66ms (next.js: 1.3ms, generate-params: 4ms, application-code: 60ms)
+ GET /manifest.webmanifest 404 in 48ms (next.js: 1.5ms, generate-params: 0.0ms, application-code: 46ms)
+ GET /manifest.webmanifest 404 in 37ms (next.js: 1.7ms, generate-params: 0.0ms, application-code: 35ms)
+ GET /vi/learn/lesson 200 in 77ms (next.js: 3ms, generate-params: 7ms, application-code: 67ms)
+ GET /manifest.webmanifest 404 in 52ms (next.js: 1.8ms, generate-params: 7ms, application-code: 44ms)
+ GET /manifest.webmanifest 404 in 52ms (next.js: 1.5ms, generate-params: 0.0ms, application-code: 50ms)
+ GET /favicon.ico 404 in 54ms (next.js: 1.5ms, generate-params: 0.0ms, application-code: 52ms)
+ GET /manifest.webmanifest 404 in 45ms (next.js: 2ms, generate-params: 0.0ms, application-code: 43ms)
+ GET /vi/learn/lesson 200 in 61ms (next.js: 1.8ms, generate-params: 6ms, application-code: 53ms)
+ GET /manifest.webmanifest 404 in 81ms (next.js: 1.5ms, generate-params: 5ms, application-code: 74ms)
+ GET /manifest.webmanifest 404 in 48ms (next.js: 1.6ms, generate-params: 0.0ms, application-code: 46ms)
+ GET /vi/learn/lesson 200 in 46ms (next.js: 1.6ms, generate-params: 5ms, application-code: 40ms)
+ GET /manifest.webmanifest 404 in 53ms (next.js: 1.3ms, generate-params: 6ms, application-code: 46ms)
+ GET /manifest.webmanifest 404 in 42ms (next.js: 1.7ms, generate-params: 0.0ms, application-code: 40ms)
+ GET /vi/learn/certificate 200 in 70ms (next.js: 4ms, generate-params: 9ms, application-code: 58ms)
+ GET /manifest.webmanifest 404 in 56ms (next.js: 2ms, generate-params: 9ms, application-code: 45ms)
+ GET /manifest.webmanifest 404 in 46ms (next.js: 1.4ms, generate-params: 0.0ms, application-code: 45ms)
+ GET /favicon.ico 404 in 48ms (next.js: 1.6ms, generate-params: 0.0ms, application-code: 47ms)
+ GET /manifest.webmanifest 404 in 44ms (next.js: 1.8ms, generate-params: 0.0ms, application-code: 42ms)
+ GET /vi/learn/certificate 200 in 49ms (next.js: 1.8ms, generate-params: 5ms, application-code: 42ms)
+ GET /manifest.webmanifest 404 in 79ms (next.js: 2ms, generate-params: 7ms, application-code: 71ms)
+ GET /manifest.webmanifest 404 in 46ms (next.js: 1.4ms, generate-params: 0.0ms, application-code: 44ms)
+ GET /vi/learn/certificate 200 in 43ms (next.js: 1.6ms, generate-params: 5ms, application-code: 36ms)
+ GET /manifest.webmanifest 404 in 58ms (next.js: 2ms, generate-params: 6ms, application-code: 50ms)
+ GET /manifest.webmanifest 404 in 202ms (next.js: 1.7ms, generate-params: 0.0ms, application-code: 201ms)
+ GET /vi/learn/settings 200 in 63ms (next.js: 2ms, generate-params: 6ms, application-code: 54ms)
+ GET /manifest.webmanifest 404 in 53ms (next.js: 2ms, generate-params: 7ms, application-code: 44ms)
+ GET /manifest.webmanifest 404 in 50ms (next.js: 1.1ms, generate-params: 0.0ms, application-code: 49ms)
+ GET /favicon.ico 404 in 49ms (next.js: 1.5ms, generate-params: 0.0ms, application-code: 48ms)
+ GET /manifest.webmanifest 404 in 44ms (next.js: 1.7ms, generate-params: 0.0ms, application-code: 42ms)
+ GET /vi/learn/settings 200 in 63ms (next.js: 2ms, generate-params: 6ms, application-code: 55ms)
+ GET /manifest.webmanifest 404 in 85ms (next.js: 2ms, generate-params: 9ms, application-code: 75ms)
+ GET /manifest.webmanifest 404 in 48ms (next.js: 2ms, generate-params: 0.0ms, application-code: 46ms)
+ GET /manifest.webmanifest 404 in 53ms (next.js: 1.9ms, generate-params: 0.0ms, application-code: 51ms)
+ GET /vi/learn/settings 200 in 48ms (next.js: 1.9ms, generate-params: 5ms, application-code: 41ms)
+ GET /manifest.webmanifest 404 in 55ms (next.js: 1.3ms, generate-params: 5ms, application-code: 49ms)
+ GET /manifest.webmanifest 404 in 39ms (next.js: 1.3ms, generate-params: 0.0ms, application-code: 38ms)
+ GET /manifest.webmanifest 404 in 34ms (next.js: 1.1ms, generate-params: 0.0ms, application-code: 33ms)
+ GET /vi/onboarding 200 in 57ms (next.js: 1.5ms, generate-params: 7ms, application-code: 48ms)
+ GET /manifest.webmanifest 404 in 67ms (next.js: 1.9ms, generate-params: 6ms, application-code: 59ms)
+ GET /manifest.webmanifest 404 in 49ms (next.js: 1.6ms, generate-params: 0.1ms, application-code: 47ms)
+ GET /favicon.ico 404 in 49ms (next.js: 1.4ms, generate-params: 0.0ms, application-code: 47ms)
+ GET /manifest.webmanifest 404 in 49ms (next.js: 1.6ms, generate-params: 0.0ms, application-code: 48ms)
+ GET /vi/onboarding 200 in 55ms (next.js: 1.7ms, generate-params: 6ms, application-code: 48ms)
+ GET /manifest.webmanifest 404 in 76ms (next.js: 2ms, generate-params: 7ms, application-code: 67ms)
+ GET /manifest.webmanifest 404 in 40ms (next.js: 2.0ms, generate-params: 0.0ms, application-code: 38ms)
+ GET /vi/onboarding 200 in 39ms (next.js: 1.9ms, generate-params: 6ms, application-code: 31ms)
+ GET /manifest.webmanifest 404 in 59ms (next.js: 1.3ms, generate-params: 5ms, application-code: 53ms)
+ GET /manifest.webmanifest 404 in 39ms (next.js: 1.5ms, generate-params: 0.0ms, application-code: 37ms)
+ GET /vi/placement 200 in 53ms (next.js: 1.9ms, generate-params: 5ms, application-code: 46ms)
+ GET /manifest.webmanifest 404 in 55ms (next.js: 1.9ms, generate-params: 6ms, application-code: 48ms)
+ GET /manifest.webmanifest 404 in 53ms (next.js: 1.4ms, generate-params: 0.0ms, application-code: 51ms)
+ GET /favicon.ico 404 in 53ms (next.js: 2ms, generate-params: 0.0ms, application-code: 50ms)
+ GET /manifest.webmanifest 404 in 63ms (next.js: 1.4ms, generate-params: 0.0ms, application-code: 61ms)
+ GET /vi/placement 200 in 49ms (next.js: 2ms, generate-params: 7ms, application-code: 40ms)
+ GET /manifest.webmanifest 404 in 73ms (next.js: 1.3ms, generate-params: 5ms, application-code: 67ms)
+ GET /manifest.webmanifest 404 in 49ms (next.js: 2ms, generate-params: 0.0ms, application-code: 47ms)
+ GET /vi/placement 200 in 46ms (next.js: 2ms, generate-params: 6ms, application-code: 38ms)
+ GET /manifest.webmanifest 404 in 53ms (next.js: 2ms, generate-params: 6ms, application-code: 44ms)
+ GET /manifest.webmanifest 404 in 39ms (next.js: 1.2ms, generate-params: 0.0ms, application-code: 38ms)
+ GET /vi/login 200 in 59ms (next.js: 2ms, generate-params: 6ms, application-code: 51ms)
+ GET /manifest.webmanifest 404 in 56ms (next.js: 1.9ms, generate-params: 5ms, application-code: 49ms)
+ GET /manifest.webmanifest 404 in 48ms (next.js: 1.4ms, generate-params: 0.0ms, application-code: 47ms)
+ GET /favicon.ico 404 in 65ms (next.js: 2ms, generate-params: 0.0ms, application-code: 63ms)
+ GET /manifest.webmanifest 404 in 58ms (next.js: 3ms, generate-params: 0.0ms, application-code: 55ms)
+ GET /vi/login 200 in 36ms (next.js: 1.5ms, generate-params: 5ms, application-code: 30ms)
+ GET /manifest.webmanifest 404 in 68ms (next.js: 2ms, generate-params: 7ms, application-code: 59ms)
+ GET /manifest.webmanifest 404 in 41ms (next.js: 1.4ms, generate-params: 0.0ms, application-code: 40ms)
+ GET /vi/login 200 in 37ms (next.js: 1.6ms, generate-params: 6ms, application-code: 29ms)
+ GET /manifest.webmanifest 404 in 52ms (next.js: 1.7ms, generate-params: 5ms, application-code: 45ms)
+ GET /manifest.webmanifest 404 in 40ms (next.js: 1.5ms, generate-params: 0.0ms, application-code: 38ms)
+ GET /vi/admin 200 in 76ms (next.js: 2ms, generate-params: 6ms, application-code: 67ms)
+ GET /manifest.webmanifest 404 in 62ms (next.js: 1.6ms, generate-params: 6ms, application-code: 54ms)
+ GET /manifest.webmanifest 404 in 59ms (next.js: 1.8ms, generate-params: 0.0ms, application-code: 57ms)
+ GET /favicon.ico 404 in 66ms (next.js: 2ms, generate-params: 0.0ms, application-code: 64ms)
+ GET /manifest.webmanifest 404 in 45ms (next.js: 2.0ms, generate-params: 0.0ms, application-code: 43ms)
+ GET /vi/admin 200 in 56ms (next.js: 1.3ms, generate-params: 5ms, application-code: 51ms)
+ GET /manifest.webmanifest 404 in 91ms (next.js: 3ms, generate-params: 7ms, application-code: 81ms)
+ GET /manifest.webmanifest 404 in 57ms (next.js: 1.6ms, generate-params: 0.0ms, application-code: 55ms)
+ GET /vi/admin 200 in 45ms (next.js: 2ms, generate-params: 5ms, application-code: 38ms)
+ GET /manifest.webmanifest 404 in 58ms (next.js: 3ms, generate-params: 6ms, application-code: 50ms)
+ GET /manifest.webmanifest 404 in 38ms (next.js: 1.2ms, generate-params: 0.0ms, application-code: 37ms)
+ GET /manifest.webmanifest 404 in 37ms (next.js: 1.1ms, generate-params: 0.0ms, application-code: 36ms)
+ GET /vi/admin/decks 200 in 77ms (next.js: 3ms, generate-params: 6ms, application-code: 67ms)
+ GET /manifest.webmanifest 404 in 47ms (next.js: 2ms, generate-params: 5ms, application-code: 40ms)
+ GET /manifest.webmanifest 404 in 49ms (next.js: 2.0ms, generate-params: 0.0ms, application-code: 47ms)
+ GET /favicon.ico 404 in 69ms (next.js: 1.2ms, generate-params: 0.0ms, application-code: 67ms)
+ GET /manifest.webmanifest 404 in 60ms (next.js: 1.8ms, generate-params: 0.0ms, application-code: 58ms)
+ GET /vi/admin/decks 200 in 57ms (next.js: 1.9ms, generate-params: 6ms, application-code: 49ms)
+ GET /manifest.webmanifest 404 in 58ms (next.js: 1.6ms, generate-params: 5ms, application-code: 51ms)
+ GET /manifest.webmanifest 404 in 43ms (next.js: 1.7ms, generate-params: 0.0ms, application-code: 41ms)
+ GET /manifest.webmanifest 404 in 34ms (next.js: 1.2ms, generate-params: 0.0ms, application-code: 33ms)
+ GET /vi/admin/decks 200 in 53ms (next.js: 1.4ms, generate-params: 5ms, application-code: 47ms)
+ GET /manifest.webmanifest 404 in 53ms (next.js: 1.2ms, generate-params: 4ms, application-code: 47ms)
+ GET /manifest.webmanifest 404 in 43ms (next.js: 1.4ms, generate-params: 0.0ms, application-code: 41ms)
+ GET /manifest.webmanifest 404 in 34ms (next.js: 1.3ms, generate-params: 0.0ms, application-code: 33ms)
+ GET /vi/admin/media 200 in 73ms (next.js: 4ms, generate-params: 6ms, application-code: 62ms)
+ GET /manifest.webmanifest 404 in 61ms (next.js: 1.8ms, generate-params: 7ms, application-code: 52ms)
+[browser] Image with src "/assets/card-catalog-at-the-indiana-state-library.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+ GET /manifest.webmanifest 404 in 111ms (next.js: 2ms, generate-params: 0.0ms, application-code: 108ms)
+ GET /favicon.ico 404 in 59ms (next.js: 1.7ms, generate-params: 0.0ms, application-code: 57ms)
+ GET /vi/admin/media 200 in 52ms (next.js: 1.3ms, generate-params: 5ms, application-code: 46ms)
+ GET /manifest.webmanifest 404 in 74ms (next.js: 1.7ms, generate-params: 7ms, application-code: 65ms)
+ GET /manifest.webmanifest 404 in 38ms (next.js: 1.4ms, generate-params: 0.0ms, application-code: 37ms)
+[browser] Image with src "/assets/card-catalog-at-the-indiana-state-library.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+ GET /manifest.webmanifest 404 in 38ms (next.js: 1.0ms, generate-params: 0.0ms, application-code: 37ms)
+ GET /vi/admin/media 200 in 52ms (next.js: 1.4ms, generate-params: 5ms, application-code: 46ms)
+ GET /manifest.webmanifest 404 in 59ms (next.js: 2ms, generate-params: 6ms, application-code: 51ms)
+[browser] Image with src "/assets/card-catalog-at-the-indiana-state-library.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+ GET /manifest.webmanifest 404 in 45ms (next.js: 1.6ms, generate-params: 0.0ms, application-code: 44ms)
+ GET /manifest.webmanifest 404 in 41ms (next.js: 1.2ms, generate-params: 0.0ms, application-code: 39ms)
+✓ Compiled in 45ms
+✓ Compiled in 22ms
+ GET /vi/learn/review 200 in 70ms (next.js: 4ms, generate-params: 8ms, application-code: 57ms)
+ GET /manifest.webmanifest 404 in 52ms (next.js: 2ms, generate-params: 6ms, application-code: 44ms)
+ GET /manifest.webmanifest 404 in 50ms (next.js: 1.4ms, generate-params: 0.0ms, application-code: 48ms)
+ GET /favicon.ico 404 in 58ms (next.js: 1.7ms, generate-params: 0.0ms, application-code: 56ms)
+ GET /manifest.webmanifest 404 in 42ms (next.js: 1.6ms, generate-params: 0.0ms, application-code: 40ms)
+ GET /vi/learn/review 200 in 47ms (next.js: 1.9ms, generate-params: 5ms, application-code: 40ms)
+ GET /manifest.webmanifest 404 in 80ms (next.js: 2ms, generate-params: 9ms, application-code: 70ms)
+ GET /manifest.webmanifest 404 in 47ms (next.js: 1.4ms, generate-params: 0.0ms, application-code: 46ms)
+ GET /manifest.webmanifest 404 in 36ms (next.js: 1.4ms, generate-params: 0.0ms, application-code: 35ms)
+ GET /vi/learn/review 200 in 50ms (next.js: 2ms, generate-params: 8ms, application-code: 41ms)
+ GET /manifest.webmanifest 404 in 51ms (next.js: 1.1ms, generate-params: 4ms, application-code: 46ms)
+ GET /manifest.webmanifest 404 in 47ms (next.js: 1.2ms, generate-params: 0.0ms, application-code: 46ms)
+ GET /manifest.webmanifest 404 in 35ms (next.js: 1.1ms, generate-params: 0.0ms, application-code: 34ms)
+ GET /vi/learn/lesson 200 in 73ms (next.js: 3ms, generate-params: 5ms, application-code: 65ms)
+ GET /manifest.webmanifest 404 in 61ms (next.js: 1.5ms, generate-params: 5ms, application-code: 54ms)
+ GET /manifest.webmanifest 404 in 57ms (next.js: 1.6ms, generate-params: 0.0ms, application-code: 55ms)
+ GET /favicon.ico 404 in 59ms (next.js: 2ms, generate-params: 0.0ms, application-code: 56ms)
+ GET /manifest.webmanifest 404 in 44ms (next.js: 1.1ms, generate-params: 0.0ms, application-code: 43ms)
+ GET /vi/learn/lesson 200 in 51ms (next.js: 1.5ms, generate-params: 5ms, application-code: 44ms)
+ GET /manifest.webmanifest 404 in 87ms (next.js: 2ms, generate-params: 10ms, application-code: 74ms)
+ GET /manifest.webmanifest 404 in 43ms (next.js: 1.4ms, generate-params: 0.0ms, application-code: 41ms)
+ GET /manifest.webmanifest 404 in 34ms (next.js: 1.1ms, generate-params: 0.0ms, application-code: 33ms)
+ GET /vi/learn/lesson 200 in 45ms (next.js: 1.5ms, generate-params: 5ms, application-code: 38ms)
+ GET /manifest.webmanifest 404 in 66ms (next.js: 1.2ms, generate-params: 5ms, application-code: 60ms)
+ GET /manifest.webmanifest 404 in 43ms (next.js: 1.8ms, generate-params: 0.0ms, application-code: 41ms)
+ GET /manifest.webmanifest 404 in 38ms (next.js: 1.1ms, generate-params: 0.0ms, application-code: 37ms)
+ GET /vi/admin 200 in 71ms (next.js: 3ms, generate-params: 6ms, application-code: 61ms)
+ GET /manifest.webmanifest 404 in 53ms (next.js: 1.9ms, generate-params: 6ms, application-code: 45ms)
+ GET /manifest.webmanifest 404 in 43ms (next.js: 1.3ms, generate-params: 0.0ms, application-code: 42ms)
+ GET /favicon.ico 404 in 61ms (next.js: 2ms, generate-params: 0.0ms, application-code: 59ms)
+ GET /manifest.webmanifest 404 in 46ms (next.js: 2ms, generate-params: 0.0ms, application-code: 43ms)
+ GET /vi/admin 200 in 49ms (next.js: 1.4ms, generate-params: 5ms, application-code: 43ms)
+ GET /manifest.webmanifest 404 in 81ms (next.js: 1.5ms, generate-params: 6ms, application-code: 73ms)
+ GET /manifest.webmanifest 404 in 57ms (next.js: 1.6ms, generate-params: 0.0ms, application-code: 56ms)
+ GET /vi/admin 200 in 54ms (next.js: 1.9ms, generate-params: 5ms, application-code: 48ms)
+ GET /manifest.webmanifest 404 in 64ms (next.js: 1.5ms, generate-params: 5ms, application-code: 58ms)
+ GET /manifest.webmanifest 404 in 41ms (next.js: 1.6ms, generate-params: 0.0ms, application-code: 39ms)
+ GET /manifest.webmanifest 404 in 36ms (next.js: 1.1ms, generate-params: 0.0ms, application-code: 34ms)
+✓ Compiled in 70ms
+✓ Compiled in 24ms
+ GET /vi?theme=dark 200 in 121ms (next.js: 11ms, generate-params: 9ms, application-code: 102ms)
+ GET /vi?theme=dark 200 in 115ms (next.js: 2ms, generate-params: 6ms, application-code: 107ms)
+ GET /vi?theme=dark 200 in 70ms (next.js: 1.6ms, generate-params: 4ms, application-code: 64ms)
+ GET /vi?theme=dark 200 in 78ms (next.js: 1.4ms, generate-params: 5ms, application-code: 71ms)
+ GET /vi 200 in 98ms (next.js: 1.8ms, generate-params: 6ms, application-code: 90ms)
+ GET /vi/learn 200 in 48ms (next.js: 1.9ms, generate-params: 5ms, application-code: 41ms)
+ GET /vi/learn/review 200 in 43ms (next.js: 2ms, generate-params: 4ms, application-code: 37ms)
+ GET /vi/learn/review 200 in 55ms (next.js: 1.5ms, generate-params: 6ms, application-code: 48ms)
+ GET /vi/learn 200 in 71ms (next.js: 1.5ms, generate-params: 6ms, application-code: 64ms)
+ GET /vi/placement 200 in 50ms (next.js: 2ms, generate-params: 5ms, application-code: 43ms)
+ GET /vi/learn/lesson 200 in 47ms (next.js: 1.9ms, generate-params: 5ms, application-code: 41ms)
+ GET /vi/admin 200 in 52ms (next.js: 1.9ms, generate-params: 4ms, application-code: 46ms)
+ GET /en/learn 200 in 37ms (next.js: 1.2ms, generate-params: 4ms, application-code: 32ms)
+ GET /vi 200 in 111ms (next.js: 2.0ms, generate-params: 7ms, application-code: 102ms)
+ GET /vi/learn 200 in 42ms (next.js: 1.2ms, generate-params: 5ms, application-code: 36ms)
+ GET /vi/learn 200 in 46ms (next.js: 1.9ms, generate-params: 5ms, application-code: 39ms)
+ GET /vi/learn/review 200 in 46ms (next.js: 1.8ms, generate-params: 5ms, application-code: 40ms)
+ GET /vi/learn 200 in 46ms (next.js: 1.2ms, generate-params: 5ms, application-code: 39ms)
+ GET /vi/placement 200 in 46ms (next.js: 1.2ms, generate-params: 7ms, application-code: 38ms)
+ GET /vi/learn/lesson 200 in 48ms (next.js: 1.5ms, generate-params: 5ms, application-code: 42ms)
+ GET /vi/admin 200 in 45ms (next.js: 1.6ms, generate-params: 4ms, application-code: 39ms)
+ GET /en/learn 200 in 37ms (next.js: 1.4ms, generate-params: 4ms, application-code: 31ms)
+ GET /vi 200 in 91ms (next.js: 1.4ms, generate-params: 5ms, application-code: 85ms)
+ GET /vi/learn 200 in 45ms (next.js: 1.3ms, generate-params: 6ms, application-code: 38ms)
+ GET /vi/learn 200 in 44ms (next.js: 1.4ms, generate-params: 4ms, application-code: 39ms)
+ GET /vi/learn/review 200 in 47ms (next.js: 1.4ms, generate-params: 5ms, application-code: 41ms)
+ GET /vi/learn 200 in 40ms (next.js: 1.4ms, generate-params: 4ms, application-code: 34ms)
+ GET /vi/placement 200 in 43ms (next.js: 1.5ms, generate-params: 4ms, application-code: 37ms)
+ GET /vi/learn/lesson 200 in 45ms (next.js: 1.3ms, generate-params: 5ms, application-code: 39ms)
+ GET /vi/admin 200 in 55ms (next.js: 1.5ms, generate-params: 4ms, application-code: 49ms)
+ GET /en/learn 200 in 42ms (next.js: 1.5ms, generate-params: 5ms, application-code: 36ms)
+ GET /vi 200 in 116ms (next.js: 1.7ms, generate-params: 7ms, application-code: 108ms)
+ GET /vi 200 in 97ms (next.js: 2ms, generate-params: 7ms, application-code: 88ms)
+ GET /vi 200 in 80ms (next.js: 1.6ms, generate-params: 5ms, application-code: 74ms)
+ GET /vi 200 in 78ms (next.js: 1.8ms, generate-params: 7ms, application-code: 70ms)
+ GET /en 200 in 116ms (next.js: 1.7ms, generate-params: 5ms, application-code: 109ms)
+ GET /en 200 in 117ms (next.js: 2ms, generate-params: 7ms, application-code: 108ms)
+ GET /en 200 in 78ms (next.js: 1.8ms, generate-params: 5ms, application-code: 72ms)
+ GET /en 200 in 71ms (next.js: 1.4ms, generate-params: 5ms, application-code: 65ms)
+ GET /en 200 in 115ms (next.js: 1.9ms, generate-params: 5ms, application-code: 108ms)
+ GET /en 200 in 101ms (next.js: 1.6ms, generate-params: 5ms, application-code: 94ms)
+ GET /en 200 in 75ms (next.js: 1.4ms, generate-params: 4ms, application-code: 69ms)
+ GET /en 200 in 84ms (next.js: 1.4ms, generate-params: 6ms, application-code: 77ms)
+ GET /vi 200 in 113ms (next.js: 1.8ms, generate-params: 6ms, application-code: 105ms)
+ GET /vi 200 in 93ms (next.js: 1.7ms, generate-params: 6ms, application-code: 85ms)
+ GET /vi 200 in 78ms (next.js: 1.5ms, generate-params: 4ms, application-code: 72ms)
+ GET /vi 200 in 75ms (next.js: 1.3ms, generate-params: 5ms, application-code: 69ms)
+ GET /en 200 in 102ms (next.js: 1.4ms, generate-params: 5ms, application-code: 96ms)
+ GET /en 200 in 92ms (next.js: 1.5ms, generate-params: 5ms, application-code: 86ms)
+ GET /en 200 in 76ms (next.js: 1.8ms, generate-params: 5ms, application-code: 70ms)
+ GET /en 200 in 77ms (next.js: 1.3ms, generate-params: 4ms, application-code: 71ms)
+ GET /vi 200 in 107ms (next.js: 1.7ms, generate-params: 7ms, application-code: 98ms)
+ GET /vi 200 in 92ms (next.js: 1.9ms, generate-params: 5ms, application-code: 85ms)
+ GET /vi 200 in 71ms (next.js: 1.3ms, generate-params: 4ms, application-code: 66ms)
+ GET /vi 200 in 73ms (next.js: 1.3ms, generate-params: 5ms, application-code: 67ms)
+ GET /vi 200 in 115ms (next.js: 1.9ms, generate-params: 7ms, application-code: 106ms)
+ GET /vi 200 in 98ms (next.js: 1.8ms, generate-params: 5ms, application-code: 91ms)
+ GET /vi 200 in 74ms (next.js: 1.4ms, generate-params: 6ms, application-code: 66ms)
+ GET /vi 200 in 77ms (next.js: 1.4ms, generate-params: 4ms, application-code: 71ms)
+ GET /vi 200 in 108ms (next.js: 1.5ms, generate-params: 7ms, application-code: 100ms)
+ GET /vi 200 in 97ms (next.js: 2.0ms, generate-params: 6ms, application-code: 88ms)
+ GET /vi 200 in 98ms (next.js: 1.6ms, generate-params: 6ms, application-code: 90ms)
+ GET /vi 200 in 102ms (next.js: 2ms, generate-params: 9ms, application-code: 92ms)
+ GET /vi 200 in 114ms (next.js: 1.5ms, generate-params: 5ms, application-code: 107ms)
+ GET /vi 200 in 114ms (next.js: 2ms, generate-params: 7ms, application-code: 105ms)
+ GET /vi 200 in 74ms (next.js: 1.5ms, generate-params: 5ms, application-code: 68ms)
+ GET /vi 200 in 73ms (next.js: 1.2ms, generate-params: 5ms, application-code: 67ms)
+[?25h

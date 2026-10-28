@@ -1,0 +1,1912 @@
+{
+ "url": "http://localhost:3005/vi/learn",
+ "at": "2026-10-27T22:41:34.150Z",
+ "allow": [
+  "font-not-dealt"
+ ],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 2,
+   "filled": [
+    0.89,
+    0.73
+   ],
+   "motion": {
+    "elements": 1,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 1,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 1209,
+     "screens": 1.3,
+     "words": 262,
+     "img": 0,
+     "video": 0,
+     "canvas": 0,
+     "svg": 14,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Chào Minh Anh. 6 thẻ đến hạn, ôn xong trong khoảng 2 phút.",
+     "words": 13,
+     "chars": 58,
+     "lines": 2,
+     "size": 28,
+     "vw": 1.9,
+     "font": "Be Vietnam Pro",
+     "weight": 500,
+     "tracking": -0.01,
+     "leading": 1.29,
+     "top": 36,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "h1": {
+     "text": "Chào Minh Anh. 6 thẻ đến hạn, ôn xong trong khoảng 2 phút.",
+     "words": 13,
+     "lines": 2,
+     "size": 28,
+     "font": "Be Vietnam Pro"
+    },
+    "headings": [
+     {
+      "text": "Chào Minh Anh. 6 thẻ đến hạn, ôn xong trong khoảng 2 phút.",
+      "words": 13,
+      "chars": 58,
+      "lines": 2,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Be Vietnam Pro",
+      "weight": 500,
+      "tracking": -0.01,
+      "leading": 1.29,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.4,
+      "top": 36,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "6thẻ",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Be Vietnam Pro",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.29,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.16,
+      "top": 210,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "10thẻ",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Be Vietnam Pro",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.29,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.16,
+      "top": 210,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "15ngày",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Be Vietnam Pro",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.29,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.16,
+      "top": 210,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "15%",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Be Vietnam Pro",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.29,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.16,
+      "top": 210,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "6/7 ngày",
+      "words": 2,
+      "chars": 8,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Be Vietnam Pro",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.29,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.15,
+      "top": 370,
+      "tag": "p",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 6,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 1,
+     "centered": 0,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Be Vietnam Pro",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      11,
+      13,
+      14,
+      15,
+      16,
+      20,
+      28
+     ],
+     "sizeCount": 7,
+     "notLoaded": [],
+     "body": null,
+     "measureChars": null,
+     "max": {
+      "size": 28,
+      "vw": 1.9,
+      "font": "Be Vietnam Pro",
+      "text": "Chào Minh Anh. 6 thẻ đến hạn, ôn xong tr"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.01,
+     "centerShare": 0.04,
+     "smallText": 0
+    },
+    "eyebrows": [
+     {
+      "text": "Đến hạn hôm nay",
+      "above": "6thẻ",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 14,
+      "top": 182
+     },
+     {
+      "text": "Thẻ mới hôm nay",
+      "above": "10thẻ",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 14,
+      "top": 182
+     },
+     {
+      "text": "Chuỗi ngày học",
+      "above": "15ngày",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 14,
+      "top": 182
+     },
+     {
+      "text": "Tiến độ lộ trình",
+      "above": "15%",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 14,
+      "top": 182
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#f5f7f2",
+       "top": 0,
+       "hsl": {
+        "h": 84,
+        "s": 0.24,
+        "l": 0.96
+       }
+      },
+      {
+       "color": "#edf1e8",
+       "top": 310,
+       "hsl": {
+        "h": 87,
+        "s": 0.24,
+        "l": 0.93
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#4b5a50",
+       "share": 0.63
+      },
+      {
+       "color": "#10241a",
+       "share": 0.3
+      },
+      {
+       "color": "#f4d96c",
+       "share": 0.04
+      },
+      {
+       "color": "#133621",
+       "share": 0.02
+      },
+      {
+       "color": "#0f3a22",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#ffffff",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 1
+      },
+      "fg": "#10241a"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 12,
+     "inHero": 8,
+     "radius": 8,
+     "height": 72,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Bỏ qua tới nội dung",
+      "Tiếng Anh TOEIC 500+",
+      "Hôm nay",
+      "Ôn ngay",
+      "2 Lịch hẹn và cuộc gọi Giới từ chỉ thời "
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 5,
+     "hairlineSamples": [
+      "aside.side 240px",
+      "a.unit 781px",
+      "div.bars-plot 462px",
+      "span 462px rule",
+      "span 462px rule"
+     ],
+     "outlinedBoxes": 0,
+     "dashed": 1,
+     "blurred": 0,
+     "roundedBoxes": 8,
+     "boxRadius": 12,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 5,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 166
+      }
+     ]
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 0,
+     "fixed": false,
+     "height": 0,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "be vietnam pro"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 1209,
+    "margins": {
+     "left": 24,
+     "right": 76
+    },
+    "sections": [],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Chào Minh Anh. 6 thẻ đến hạn, ôn xong trong khoảng 2 phút.",
+      "size": 28,
+      "top": 36,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 310,
+      "n": 2
+     },
+     {
+      "x": 290,
+      "n": 1
+     },
+     {
+      "x": 387,
+      "n": 1
+     },
+     {
+      "x": 466,
+      "n": 1
+     },
+     {
+      "x": 868,
+      "n": 1
+     },
+     {
+      "x": 1147,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 7,
+    "bodySize": 28,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0.11,
+    "voidBox": {
+     "x": 660,
+     "y": 300,
+     "w": 300,
+     "h": 480
+    }
+   },
+   "app": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "dark": false,
+    "ground": "#ffffff",
+    "sidebar": {
+     "w": 240,
+     "tag": "aside",
+     "links": 12,
+     "share": 0.17
+    },
+    "topbar": null,
+    "canvas": {
+     "left": 50,
+     "right": 71
+    },
+    "hero": {
+     "text": "Chào Minh Anh. 6 thẻ đến hạn, ôn xong trong khoảng 2 phút.",
+     "words": 13,
+     "chars": 58,
+     "lines": 2,
+     "size": 28,
+     "vw": 1.9,
+     "font": "Be Vietnam Pro",
+     "weight": 500,
+     "tracking": -0.01,
+     "leading": 1.29,
+     "top": 36,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "charts": 1,
+    "layout": {
+     "panels": 8,
+     "firstScreen": 8,
+     "ragged": [
+      {
+       "diff": 228,
+       "top": 310
+      }
+     ],
+     "voids": []
+    },
+    "tiles": 0,
+    "panels": {
+     "count": 12,
+     "radii": [
+      [
+       12,
+       8
+      ],
+      [
+       0,
+       4
+      ]
+     ],
+     "heavyBorders": 1,
+     "borderSamples": [
+      "#133621 on #ffffff (13.31:1)"
+     ],
+     "heavyShadows": 0,
+     "softShadows": 0,
+     "shadowSamples": [],
+     "glass": 0
+    },
+    "chips": {
+     "count": 0,
+     "hues": 0,
+     "samples": []
+    },
+    "numbers": {
+     "cells": 0,
+     "leftAligned": 0,
+     "figures": 0,
+     "tabularShare": null,
+     "kpiMax": null
+    },
+    "rows": null,
+    "chartHues": 0,
+    "placeholders": [],
+    "type": {
+     "under13": 0,
+     "tiny": 0,
+     "tinySamples": [],
+     "sizes": [
+      11,
+      13,
+      14,
+      15,
+      16,
+      28
+     ]
+    },
+    "title": {
+     "text": "Chào Minh Anh. 6 thẻ đến hạn, ôn xong trong khoảng 2 phút.",
+     "size": 28,
+     "top": 36
+    },
+    "colourShare": 0.002
+   },
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 2,
+   "filled": [
+    0.71,
+    0.74
+   ],
+   "motion": {
+    "elements": 1,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 1,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 1537,
+     "screens": 1.5,
+     "words": 233,
+     "img": 0,
+     "video": 0,
+     "canvas": 0,
+     "svg": 14,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Chào Minh Anh. 6 thẻ đến hạn, ôn xong trong khoảng 2 phút.",
+     "words": 13,
+     "chars": 58,
+     "lines": 2,
+     "size": 28,
+     "vw": 3.6,
+     "font": "Be Vietnam Pro",
+     "weight": 500,
+     "tracking": -0.01,
+     "leading": 1.29,
+     "top": 76,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "h1": {
+     "text": "Chào Minh Anh. 6 thẻ đến hạn, ôn xong trong khoảng 2 phút.",
+     "words": 13,
+     "lines": 2,
+     "size": 28,
+     "font": "Be Vietnam Pro"
+    },
+    "headings": [
+     {
+      "text": "Chào Minh Anh. 6 thẻ đến hạn, ôn xong trong khoảng 2 phút.",
+      "words": 13,
+      "chars": 58,
+      "lines": 2,
+      "size": 28,
+      "vw": 3.6,
+      "font": "Be Vietnam Pro",
+      "weight": 500,
+      "tracking": -0.01,
+      "leading": 1.29,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.75,
+      "top": 76,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "10thẻ",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 28,
+      "vw": 3.6,
+      "font": "Be Vietnam Pro",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.29,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.18,
+      "top": 242,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "15ngày",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 28,
+      "vw": 3.6,
+      "font": "Be Vietnam Pro",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.29,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.18,
+      "top": 242,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "6thẻ",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 28,
+      "vw": 3.6,
+      "font": "Be Vietnam Pro",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.29,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.18,
+      "top": 252,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "15%",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 28,
+      "vw": 3.6,
+      "font": "Be Vietnam Pro",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.29,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.18,
+      "top": 252,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "6/7 ngày",
+      "words": 2,
+      "chars": 8,
+      "lines": 1,
+      "size": 28,
+      "vw": 3.6,
+      "font": "Be Vietnam Pro",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.29,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 922,
+      "tag": "p",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 6,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 1,
+     "centered": 0,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Be Vietnam Pro",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      11,
+      13,
+      14,
+      15,
+      16,
+      20,
+      28
+     ],
+     "sizeCount": 7,
+     "notLoaded": [],
+     "body": null,
+     "measureChars": null,
+     "max": {
+      "size": 28,
+      "vw": 3.6,
+      "font": "Be Vietnam Pro",
+      "text": "Chào Minh Anh. 6 thẻ đến hạn, ôn xong tr"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.03,
+     "smallText": 0
+    },
+    "eyebrows": [
+     {
+      "text": "Thẻ mới hôm nay",
+      "above": "10thẻ",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 14,
+      "top": 222
+     },
+     {
+      "text": "Chuỗi ngày học",
+      "above": "15ngày",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 14,
+      "top": 222
+     },
+     {
+      "text": "Đến hạn hôm nay",
+      "above": "6thẻ",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 14,
+      "top": 222
+     },
+     {
+      "text": "Tiến độ lộ trình",
+      "above": "15%",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 14,
+      "top": 222
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#f5f7f2",
+       "top": 0,
+       "hsl": {
+        "h": 84,
+        "s": 0.24,
+        "l": 0.96
+       }
+      },
+      {
+       "color": "#edf1e8",
+       "top": 355,
+       "hsl": {
+        "h": 87,
+        "s": 0.24,
+        "l": 0.93
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#4b5a50",
+       "share": 0.6
+      },
+      {
+       "color": "#10241a",
+       "share": 0.31
+      },
+      {
+       "color": "#f4d96c",
+       "share": 0.05
+      },
+      {
+       "color": "#133621",
+       "share": 0.02
+      },
+      {
+       "color": "#0f3a22",
+       "share": 0.02
+      }
+     ],
+     "button": {
+      "bg": "#ffffff",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 1
+      },
+      "fg": "#10241a"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 10,
+     "inHero": 6,
+     "radius": 0,
+     "height": 72,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Bỏ qua tới nội dung",
+      "Ôn ngay",
+      "2 Lịch hẹn và cuộc gọi Giới từ chỉ thời ",
+      "3 Văn phòng phẩm, thiết bị Danh từ đếm đ",
+      "4 Họp và email Hiện tại hoàn thành · 24 "
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 5,
+     "hairlineSamples": [
+      "header.topbar 768px",
+      "a.unit 688px",
+      "div.bars-plot 276px",
+      "span 276px rule",
+      "span 276px rule"
+     ],
+     "outlinedBoxes": 0,
+     "dashed": 1,
+     "blurred": 0,
+     "roundedBoxes": 8,
+     "boxRadius": 12,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 4,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 206
+      }
+     ]
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 0,
+     "fixed": true,
+     "height": 52,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "be vietnam pro"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 1537,
+    "margins": {
+     "left": 20,
+     "right": 40
+    },
+    "sections": [
+     {
+      "sel": "section.panel.s9",
+      "tag": "section",
+      "top": 355,
+      "height": 491,
+      "words": 82,
+      "media": 0,
+      "middle": 264,
+      "heading": {
+       "text": "Cây lộ trình",
+       "size": 16,
+       "tag": "h2"
+      },
+      "left": 40,
+      "right": 40,
+      "textLeft": 40,
+      "textRight": 40,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.panel.panel-start",
+      "tag": "section",
+      "top": 862,
+      "height": 263,
+      "words": 14,
+      "media": 0,
+      "middle": 83,
+      "heading": {
+       "text": "Tuần này",
+       "size": 16,
+       "tag": "h2"
+      },
+      "left": 40,
+      "right": 79,
+      "textLeft": 40,
+      "textRight": 79,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Chào Minh Anh. 6 thẻ đến hạn, ôn xong trong khoảng 2 phút.",
+      "size": 28,
+      "top": 76,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 40,
+      "n": 3
+     },
+     {
+      "x": 20,
+      "n": 1
+     },
+     {
+      "x": 117,
+      "n": 1
+     },
+     {
+      "x": 196,
+      "n": 1
+     },
+     {
+      "x": 412,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 7,
+    "bodySize": 28,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "dark": false,
+    "ground": "#ffffff",
+    "sidebar": null,
+    "topbar": {
+     "h": 52
+    },
+    "canvas": {
+     "left": 20,
+     "right": 24
+    },
+    "hero": {
+     "text": "Chào Minh Anh. 6 thẻ đến hạn, ôn xong trong khoảng 2 phút.",
+     "words": 13,
+     "chars": 58,
+     "lines": 2,
+     "size": 28,
+     "vw": 3.6,
+     "font": "Be Vietnam Pro",
+     "weight": 500,
+     "tracking": -0.01,
+     "leading": 1.29,
+     "top": 76,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "charts": 1,
+    "layout": {
+     "panels": 8,
+     "firstScreen": 6,
+     "ragged": [],
+     "voids": []
+    },
+    "tiles": 0,
+    "panels": {
+     "count": 12,
+     "radii": [
+      [
+       12,
+       8
+      ],
+      [
+       0,
+       4
+      ]
+     ],
+     "heavyBorders": 1,
+     "borderSamples": [
+      "#133621 on #ffffff (13.31:1)"
+     ],
+     "heavyShadows": 0,
+     "softShadows": 0,
+     "shadowSamples": [],
+     "glass": 0
+    },
+    "chips": {
+     "count": 0,
+     "hues": 0,
+     "samples": []
+    },
+    "numbers": {
+     "cells": 0,
+     "leftAligned": 0,
+     "figures": 0,
+     "tabularShare": null,
+     "kpiMax": null
+    },
+    "rows": null,
+    "chartHues": 0,
+    "placeholders": [],
+    "type": {
+     "under13": 0,
+     "tiny": 0,
+     "tinySamples": [],
+     "sizes": [
+      11,
+      13,
+      14,
+      15,
+      16,
+      28
+     ]
+    },
+    "title": {
+     "text": "Chào Minh Anh. 6 thẻ đến hạn, ôn xong trong khoảng 2 phút.",
+     "size": 28,
+     "top": 76
+    },
+    "colourShare": 0.007
+   },
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 3,
+   "filled": [
+    0.85,
+    0.84,
+    1
+   ],
+   "motion": {
+    "elements": 1,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 1,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 2249,
+     "screens": 2.7,
+     "words": 233,
+     "img": 0,
+     "video": 0,
+     "canvas": 0,
+     "svg": 14,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Chào Minh Anh. 6 thẻ đến hạn, ôn xong trong khoảng 2 phút.",
+     "words": 13,
+     "chars": 58,
+     "lines": 2,
+     "size": 22,
+     "vw": 5.6,
+     "font": "Be Vietnam Pro",
+     "weight": 500,
+     "tracking": -0.01,
+     "leading": 1.36,
+     "top": 72,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "h1": {
+     "text": "Chào Minh Anh. 6 thẻ đến hạn, ôn xong trong khoảng 2 phút.",
+     "words": 13,
+     "lines": 2,
+     "size": 22,
+     "font": "Be Vietnam Pro"
+    },
+    "headings": [
+     {
+      "text": "Chào Minh Anh. 6 thẻ đến hạn, ôn xong trong khoảng 2 phút.",
+      "words": 13,
+      "chars": 58,
+      "lines": 2,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Be Vietnam Pro",
+      "weight": 500,
+      "tracking": -0.01,
+      "leading": 1.36,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 72,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "10thẻ",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 28,
+      "vw": 7.2,
+      "font": "Be Vietnam Pro",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.29,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.36,
+      "top": 278,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "6thẻ",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 28,
+      "vw": 7.2,
+      "font": "Be Vietnam Pro",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.29,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.36,
+      "top": 288,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "15ngày",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 28,
+      "vw": 7.2,
+      "font": "Be Vietnam Pro",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.29,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.36,
+      "top": 427,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "15%",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 28,
+      "vw": 7.2,
+      "font": "Be Vietnam Pro",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.29,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.36,
+      "top": 437,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "6/7 ngày",
+      "words": 2,
+      "chars": 8,
+      "lines": 1,
+      "size": 28,
+      "vw": 7.2,
+      "font": "Be Vietnam Pro",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.29,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.82,
+      "top": 1306,
+      "tag": "p",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 6,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 1,
+     "centered": 0,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Be Vietnam Pro",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      11,
+      13,
+      14,
+      15,
+      16,
+      20,
+      22,
+      28
+     ],
+     "sizeCount": 8,
+     "notLoaded": [],
+     "body": null,
+     "measureChars": null,
+     "max": {
+      "size": 28,
+      "vw": 7.2,
+      "font": "Be Vietnam Pro",
+      "text": "6"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.03,
+     "smallText": 0
+    },
+    "eyebrows": [
+     {
+      "text": "Thẻ mới hôm nay",
+      "above": "10thẻ",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 14,
+      "top": 258
+     },
+     {
+      "text": "Đến hạn hôm nay",
+      "above": "6thẻ",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 14,
+      "top": 258
+     },
+     {
+      "text": "Chuỗi ngày học",
+      "above": "15ngày",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 14,
+      "top": 407
+     },
+     {
+      "text": "Tiến độ lộ trình",
+      "above": "15%",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 14,
+      "top": 407
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#f5f7f2",
+       "top": 0,
+       "hsl": {
+        "h": 84,
+        "s": 0.24,
+        "l": 0.96
+       }
+      },
+      {
+       "color": "#edf1e8",
+       "top": 540,
+       "hsl": {
+        "h": 87,
+        "s": 0.24,
+        "l": 0.93
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#4b5a50",
+       "share": 0.6
+      },
+      {
+       "color": "#10241a",
+       "share": 0.31
+      },
+      {
+       "color": "#f4d96c",
+       "share": 0.05
+      },
+      {
+       "color": "#133621",
+       "share": 0.02
+      },
+      {
+       "color": "#0f3a22",
+       "share": 0.02
+      }
+     ],
+     "button": {
+      "bg": "#ffffff",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 1
+      },
+      "fg": "#10241a"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 6,
+     "inHero": 2,
+     "radius": 8,
+     "height": 48,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Bỏ qua tới nội dung",
+      "Ôn ngay"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 5,
+     "hairlineSamples": [
+      "header.topbar 390px",
+      "a.unit 318px",
+      "div.bars-plot 278px",
+      "span 278px rule",
+      "span 278px rule"
+     ],
+     "outlinedBoxes": 4,
+     "dashed": 1,
+     "blurred": 0,
+     "roundedBoxes": 8,
+     "boxRadius": 12,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 4,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 242
+      },
+      {
+       "count": 5,
+       "iconTopped": true,
+       "rounded": false,
+       "top": 648
+      }
+     ]
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 0,
+     "fixed": true,
+     "height": 52,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "be vietnam pro"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 2249,
+    "margins": {
+     "left": 16,
+     "right": 36
+    },
+    "sections": [
+     {
+      "sel": "div.title-row",
+      "tag": "div",
+      "top": 72,
+      "height": 146,
+      "words": 24,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Chào Minh Anh. 6 thẻ đến hạn, ôn xong trong khoảng",
+       "size": 22,
+       "tag": "h1"
+      },
+      "left": 16,
+      "right": 52,
+      "textLeft": 16,
+      "textRight": 52,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.panel.s9",
+      "tag": "section",
+      "top": 540,
+      "height": 690,
+      "words": 82,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Cây lộ trình",
+       "size": 16,
+       "tag": "h2"
+      },
+      "left": 36,
+      "right": 36,
+      "textLeft": 36,
+      "textRight": 36,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.panel.panel-start",
+      "tag": "section",
+      "top": 1246,
+      "height": 263,
+      "words": 14,
+      "media": 0,
+      "middle": 29,
+      "heading": {
+       "text": "Tuần này",
+       "size": 16,
+       "tag": "h2"
+      },
+      "left": 36,
+      "right": 49,
+      "textLeft": 36,
+      "textRight": 49,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.panel.s6",
+      "tag": "section",
+      "top": 1525,
+      "height": 320,
+      "words": 26,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Học tiếp",
+       "size": 16,
+       "tag": "h2"
+      },
+      "left": 36,
+      "right": 51,
+      "textLeft": 36,
+      "textRight": 51,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.panel.s6",
+      "tag": "section",
+      "top": 1861,
+      "height": 332,
+      "words": 20,
+      "media": 0,
+      "middle": 25,
+      "heading": {
+       "text": "Lịch ôn 7 ngày tới",
+       "size": 16,
+       "tag": "h2"
+      },
+      "left": 36,
+      "right": 43,
+      "textLeft": 36,
+      "textRight": 43,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Chào Minh Anh. 6 thẻ đến hạn, ôn xong trong khoảng 2 phút.",
+      "size": 22,
+      "top": 72,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 36,
+      "n": 4
+     },
+     {
+      "x": 16,
+      "n": 1
+     },
+     {
+      "x": 113,
+      "n": 1
+     },
+     {
+      "x": 192,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 7,
+    "bodySize": 22,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "dark": false,
+    "ground": "#ffffff",
+    "sidebar": null,
+    "topbar": {
+     "h": 52
+    },
+    "canvas": {
+     "left": 16,
+     "right": 24
+    },
+    "hero": {
+     "text": "Chào Minh Anh. 6 thẻ đến hạn, ôn xong trong khoảng 2 phút.",
+     "words": 13,
+     "chars": 58,
+     "lines": 2,
+     "size": 22,
+     "vw": 5.6,
+     "font": "Be Vietnam Pro",
+     "weight": 500,
+     "tracking": -0.01,
+     "leading": 1.36,
+     "top": 72,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "charts": 1,
+    "layout": {
+     "panels": 8,
+     "firstScreen": 5,
+     "ragged": [],
+     "voids": []
+    },
+    "tiles": 0,
+    "panels": {
+     "count": 13,
+     "radii": [
+      [
+       12,
+       8
+      ],
+      [
+       0,
+       5
+      ]
+     ],
+     "heavyBorders": 1,
+     "borderSamples": [
+      "#133621 on #ffffff (13.31:1)"
+     ],
+     "heavyShadows": 0,
+     "softShadows": 0,
+     "shadowSamples": [],
+     "glass": 0
+    },
+    "chips": {
+     "count": 0,
+     "hues": 0,
+     "samples": []
+    },
+    "numbers": {
+     "cells": 0,
+     "leftAligned": 0,
+     "figures": 0,
+     "tabularShare": null,
+     "kpiMax": null
+    },
+    "rows": null,
+    "chartHues": 0,
+    "placeholders": [],
+    "type": {
+     "under13": 0,
+     "tiny": 0,
+     "tinySamples": [],
+     "sizes": [
+      11,
+      13,
+      14,
+      15,
+      16,
+      22,
+      28
+     ]
+    },
+    "title": {
+     "text": "Chào Minh Anh. 6 thẻ đến hạn, ôn xong trong khoảng 2 phút.",
+     "size": 22,
+     "top": 72
+    },
+    "colourShare": 0.003
+   },
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "ragged-row",
+   "width": 1440,
+   "message": "1 pair(s) of cards in one row end at different heights (by 228px).",
+   "fix": "Cards that share a row share a bottom edge: balance them by their content (the same number of rows, a block of similar height beside it), or stack them. In testing, ragged rows were marked down every time."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "D:\\LanguageFlash\\.taste-skill\\app\\inspect-learn\\desktop-fold.jpg",
+   "pages": [
+    "D:\\LanguageFlash\\.taste-skill\\app\\inspect-learn\\desktop-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "D:\\LanguageFlash\\.taste-skill\\app\\inspect-learn\\tablet-fold.jpg",
+   "pages": [
+    "D:\\LanguageFlash\\.taste-skill\\app\\inspect-learn\\tablet-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "D:\\LanguageFlash\\.taste-skill\\app\\inspect-learn\\mobile-fold.jpg",
+   "pages": [
+    "D:\\LanguageFlash\\.taste-skill\\app\\inspect-learn\\mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}
